@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom font classes for Manrope */
+@layer utilities {
+    .font-manrope {
+        font-family: Manrope_400Regular;
+    }
+    .font-manrope-light {
+        font-family: Manrope_300Light;
+    }
+    .font-manrope-medium {
+        font-family: Manrope_500Medium;
+    }
+    .font-manrope-semibold {
+        font-family: Manrope_600SemiBold;
+    }
+    .font-manrope-bold {
+        font-family: Manrope_700Bold;
+    }
+    .font-manrope-extrabold {
+        font-family: Manrope_800ExtraBold;
+    }
+}
