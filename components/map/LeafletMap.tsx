@@ -36,13 +36,13 @@ interface LeafletMapProps {
 // Cast geodata to GeoMarker type
 const baseGeoMarkers: GeoMarker[] = geodata as GeoMarker[];
 
-// Category configuration: color, icon, and minimum zoom level to display
+// Category configuration: color, icon, minimum zoom level, and priority (lower = more important)
 const getCategoryConfig = (
     category: string,
 ): { color: string; icon: string; minZoom: number; priority: number } => {
     const cat = category.toLowerCase();
 
-    // Education - Major POIs, show earlier (zoom 13+)
+    // Education - Major POIs, highest priority
     if (
         cat.includes("universitas") ||
         cat.includes("perguruan tinggi") ||
@@ -58,7 +58,7 @@ const getCategoryConfig = (
         };
     }
 
-    // Schools - Show at zoom 15+
+    // Schools
     if (
         cat.includes("sekolah") ||
         cat.includes("smp") ||
@@ -75,7 +75,7 @@ const getCategoryConfig = (
         };
     }
 
-    // Bank - Important, show at zoom 14+
+    // Bank - Important
     if (
         cat.includes("bank") ||
         cat.includes("atm") ||
@@ -90,7 +90,7 @@ const getCategoryConfig = (
         };
     }
 
-    // Restaurant/Food - Show at zoom 15+
+    // Restaurant/Food
     if (
         cat.includes("restoran") ||
         cat.includes("restaurant") ||
@@ -119,7 +119,7 @@ const getCategoryConfig = (
         };
     }
 
-    // Minimarket/Store - Show at zoom 16+
+    // Minimarket/Store
     if (
         cat.includes("minimarket") ||
         cat.includes("toko") ||
@@ -136,7 +136,7 @@ const getCategoryConfig = (
         };
     }
 
-    // Default - Show at zoom 17+
+    // Default
     return {
         color: "#6B7280",
         icon: "M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z",
@@ -202,11 +202,8 @@ export default function LeafletMap({
     <head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
       <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-      <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
-      <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
       <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
       <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-      <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
       <style>
         * { margin: 0; padding: 0; font-family: 'Manrope', sans-serif; }
         html, body, #map { height: 100%; width: 100%; }
@@ -217,93 +214,43 @@ export default function LeafletMap({
         }
         
         .geo-marker-wrapper {
-          display: flex;
-          align-items: center;
-          flex-direction: row-reverse;
           position: relative;
-          opacity: 0;
-          animation: fadeIn 0.3s ease forwards;
-        }
-        
-        @keyframes fadeIn {
-          from { opacity: 0; transform: scale(0.8); }
-          to { opacity: 1; transform: scale(1); }
+          width: 28px;
+          height: 28px;
         }
         
         .geo-pin {
-          width: 24px;
-          height: 24px;
+          width: 28px;
+          height: 28px;
           border-radius: 50%;
           display: flex;
           align-items: center;
           justify-content: center;
           border: 2px solid white;
           box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-          flex-shrink: 0;
         }
         
         .geo-label {
           position: absolute;
-          right: 28px;
-          font-size: 10px;
+          right: 32px;
+          top: 50%;
+          transform: translateY(-50%);
+          font-size: 11px;
           font-weight: 700;
           white-space: nowrap;
-          max-width: 100px;
+          max-width: 120px;
           overflow: hidden;
           text-overflow: ellipsis;
           pointer-events: none;
-          -webkit-text-stroke: 2px white;
-          paint-order: stroke fill;
           text-shadow: 
-            1px 1px 0 white,
             -1px -1px 0 white,
             1px -1px 0 white,
             -1px 1px 0 white,
-            0 1px 0 white,
+            1px 1px 0 white,
             0 -1px 0 white,
-            1px 0 0 white,
-            -1px 0 0 white;
-        }
-        
-        /* Custom cluster styles */
-        .marker-cluster-small {
-          background-color: rgba(27, 152, 141, 0.6);
-        }
-        .marker-cluster-small div {
-          background-color: rgba(27, 152, 141, 0.8);
-        }
-        .marker-cluster-medium {
-          background-color: rgba(27, 152, 141, 0.6);
-        }
-        .marker-cluster-medium div {
-          background-color: rgba(27, 152, 141, 0.8);
-        }
-        .marker-cluster-large {
-          background-color: rgba(27, 152, 141, 0.6);
-        }
-        .marker-cluster-large div {
-          background-color: rgba(27, 152, 141, 0.8);
-        }
-        .marker-cluster {
-          background-clip: padding-box;
-          border-radius: 20px;
-        }
-        .marker-cluster div {
-          width: 30px;
-          height: 30px;
-          margin-left: 5px;
-          margin-top: 5px;
-          text-align: center;
-          border-radius: 15px;
-          font: 12px 'Manrope', sans-serif;
-          font-weight: 700;
-          color: white;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-        .marker-cluster span {
-          line-height: 30px;
+            0 1px 0 white,
+            -1px 0 0 white,
+            1px 0 0 white;
         }
       </style>
     </head>
@@ -328,71 +275,118 @@ export default function LeafletMap({
           maxZoom: 19
         }).addTo(map);
 
-        // Marker cluster group for geo markers
-        var clusterGroup = L.markerClusterGroup({
-          maxClusterRadius: 50,
-          spiderfyOnMaxZoom: true,
-          showCoverageOnHover: false,
-          zoomToBoundsOnClick: true,
-          disableClusteringAtZoom: 17,
-          iconCreateFunction: function(cluster) {
-            var count = cluster.getChildCount();
-            var size = count < 10 ? 'small' : count < 50 ? 'medium' : 'large';
-            return L.divIcon({
-              html: '<div><span>' + count + '</span></div>',
-              className: 'marker-cluster marker-cluster-' + size,
-              iconSize: L.point(40, 40)
-            });
+        // Layer for geo markers
+        var geoLayer = L.layerGroup().addTo(map);
+        
+        // Minimum pixel distance between markers to avoid overlap
+        var MIN_MARKER_DISTANCE = 40;
+        // Pixel distance to check for label collision (text width)
+        var LABEL_COLLISION_DISTANCE = 80;
+        
+        // Convert lat/lng to pixel position
+        function latLngToPixel(lat, lng) {
+          var point = map.latLngToContainerPoint([lat, lng]);
+          return { x: point.x, y: point.y };
+        }
+        
+        // Calculate pixel distance between two points
+        function pixelDistance(p1, p2) {
+          var dx = p1.x - p2.x;
+          var dy = p1.y - p2.y;
+          return Math.sqrt(dx * dx + dy * dy);
+        }
+        
+        // Check if a marker has another marker to its left (for label positioning)
+        function hasMarkerOnLeft(visibleMarkers, currentIndex, currentPixel) {
+          for (var i = 0; i < visibleMarkers.length; i++) {
+            if (i === currentIndex) continue;
+            var otherPixel = visibleMarkers[i].pixel;
+            // Check if marker is to the left and within label collision range
+            var dx = currentPixel.x - otherPixel.x;
+            var dy = Math.abs(currentPixel.y - otherPixel.y);
+            if (dx > 0 && dx < LABEL_COLLISION_DISTANCE && dy < 20) {
+              return true;
+            }
           }
-        });
+          return false;
+        }
         
-        // Store all markers for filtering
-        var allGeoMarkers = [];
-        var currentVisibleMarkers = [];
-        
-        // Create markers for all geodata
-        geoData.forEach(function(geo, index) {
-          var icon = L.divIcon({
-            className: 'geo-marker-container',
-            html: '<div class="geo-marker-wrapper"><div class="geo-label" style="color:' + geo.color + ';">' + geo.name.replace(/'/g, "\\\\'") + '</div><div class="geo-pin" style="background:' + geo.color + ';"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="white" d="' + geo.icon + '"/></svg></div></div>',
-            iconSize: [20, 20],
-            iconAnchor: [10, 20]
+        // Filter overlapping markers, keeping only the most important one
+        function filterOverlappingMarkers(candidates) {
+          // Sort by priority (lower = more important)
+          candidates.sort(function(a, b) {
+            return a.geo.priority - b.geo.priority;
           });
           
-          var marker = L.marker([geo.lat, geo.lng], { icon: icon });
-          marker.geoData = geo;
-          marker.geoIndex = index;
-          allGeoMarkers.push(marker);
-        });
-        
-        // Function to update visible markers based on zoom and viewport
-        function updateVisibleMarkers() {
-          var currentZoom = map.getZoom();
-          var bounds = map.getBounds();
+          var visible = [];
           
-          // Clear cluster group
-          clusterGroup.clearLayers();
-          currentVisibleMarkers = [];
-          
-          // Filter markers by zoom level and viewport
-          allGeoMarkers.forEach(function(marker) {
-            var geo = marker.geoData;
-            var latlng = marker.getLatLng();
+          for (var i = 0; i < candidates.length; i++) {
+            var candidate = candidates[i];
+            var isOverlapping = false;
             
-            // Check if marker should be visible at current zoom
-            if (currentZoom >= geo.minZoom) {
-              // Check if marker is within viewport (with padding)
-              var paddedBounds = bounds.pad(0.2); // 20% padding
-              if (paddedBounds.contains(latlng)) {
-                currentVisibleMarkers.push(marker);
-                clusterGroup.addLayer(marker);
+            // Check against already accepted markers
+            for (var j = 0; j < visible.length; j++) {
+              var distance = pixelDistance(candidate.pixel, visible[j].pixel);
+              if (distance < MIN_MARKER_DISTANCE) {
+                isOverlapping = true;
+                break;
               }
             }
+            
+            if (!isOverlapping) {
+              visible.push(candidate);
+            }
+          }
+          
+          return visible;
+        }
+        
+        // Create marker element with label on left of pin
+        function createMarkerIcon(geo) {
+          var safeName = geo.name.replace(/'/g, "\\'").replace(/"/g, '\\"');
+          
+          // Pin is 28x28, label is positioned absolutely to the left
+          // iconAnchor should be center of the 28x28 wrapper (14, 14)
+          return L.divIcon({
+            className: 'geo-marker-container',
+            html: '<div class="geo-marker-wrapper"><div class="geo-label" style="color:' + geo.color + ';">' + safeName + '</div><div class="geo-pin" style="background:' + geo.color + ';"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="white" d="' + geo.icon + '"/></svg></div></div>',
+            iconSize: [28, 28],
+            iconAnchor: [14, 14]
           });
         }
         
-        // Add cluster group to map
-        map.addLayer(clusterGroup);
+        // Update visible markers based on zoom, viewport, and overlap
+        function updateVisibleMarkers() {
+          var currentZoom = map.getZoom();
+          var bounds = map.getBounds();
+          var paddedBounds = bounds.pad(0.1);
+          
+          // Clear previous markers
+          geoLayer.clearLayers();
+          
+          // Step 1: Get candidates that meet zoom level and are in viewport
+          var candidates = [];
+          geoData.forEach(function(geo, index) {
+            if (currentZoom >= geo.minZoom && paddedBounds.contains([geo.lat, geo.lng])) {
+              var pixel = latLngToPixel(geo.lat, geo.lng);
+              candidates.push({
+                geo: geo,
+                pixel: pixel,
+                index: index
+              });
+            }
+          });
+          
+          // Step 2: Filter overlapping markers
+          var visibleMarkers = filterOverlappingMarkers(candidates);
+          
+          // Step 3: Create markers
+          visibleMarkers.forEach(function(item) {
+            var icon = createMarkerIcon(item.geo);
+            var marker = L.marker([item.geo.lat, item.geo.lng], { icon: icon });
+            geoLayer.addLayer(marker);
+          });
+        }
         
         // Initial update
         updateVisibleMarkers();
