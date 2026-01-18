@@ -303,8 +303,8 @@ export default function LeafletMap({
         // Layer for geo markers
         var geoLayer = L.layerGroup().addTo(map);
         
-        // Minimum pixel distance between markers to avoid overlap
-        var MIN_MARKER_DISTANCE = 40;
+        // Minimum pixel distance between markers to avoid overlap (hide duplicate markers within this radius)
+        var MIN_MARKER_DISTANCE = 60;
         // Pixel distance to check for label collision (text width)
         var LABEL_COLLISION_DISTANCE = 80;
         
@@ -404,9 +404,25 @@ export default function LeafletMap({
           // Step 2: Filter overlapping markers
           var visibleMarkers = filterOverlappingMarkers(candidates);
           
-          // Step 3: Create markers with dynamic label positioning
-          visibleMarkers.forEach(function(item, idx) {
-            var labelPosition = hasMarkerOnLeft(visibleMarkers, idx, item.pixel) ? 'right' : 'left';
+          // Step 3: Limit markers per category
+          var MAX_MARKERS_PER_CATEGORY = 1;
+          var categoryCount = {};
+          var limitedMarkers = [];
+          
+          visibleMarkers.forEach(function(item) {
+            var category = item.geo.category || 'default';
+            if (!categoryCount[category]) {
+              categoryCount[category] = 0;
+            }
+            if (categoryCount[category] < MAX_MARKERS_PER_CATEGORY) {
+              categoryCount[category]++;
+              limitedMarkers.push(item);
+            }
+          });
+          
+          // Step 4: Create markers with dynamic label positioning
+          limitedMarkers.forEach(function(item, idx) {
+            var labelPosition = hasMarkerOnLeft(limitedMarkers, idx, item.pixel) ? 'right' : 'left';
             var icon = createMarkerIcon(item.geo, labelPosition);
             var marker = L.marker([item.geo.lat, item.geo.lng], { icon: icon });
             geoLayer.addLayer(marker);
