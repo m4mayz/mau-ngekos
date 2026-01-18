@@ -1,7 +1,7 @@
 import LocationPickerMap from "@/components/map/LocationPickerMap";
 import Text from "@/components/ui/Text";
 import { useAuth } from "@/contexts/AuthContext";
-import { supabase } from "@/lib/supabase";
+import { createBoardingHouse } from "@/lib/firestore";
 import { Monicon } from "@monicon/native";
 import * as Location from "expo-location";
 import { useRouter } from "expo-router";
@@ -16,10 +16,12 @@ import {
     TouchableOpacity,
     View,
 } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 export default function AddListingScreen() {
     const router = useRouter();
-    const { user } = useAuth();
+    const insets = useSafeAreaInsets();
+    const { firebaseUser } = useAuth();
 
     const [isLoading, setIsLoading] = useState(false);
     const [form, setForm] = useState({
@@ -45,7 +47,7 @@ export default function AddListingScreen() {
             if (status !== "granted") {
                 Alert.alert(
                     "Info",
-                    "Izin lokasi diperlukan untuk menentukan lokasi kos"
+                    "Izin lokasi diperlukan untuk menentukan lokasi kos",
                 );
                 return;
             }
@@ -65,7 +67,7 @@ export default function AddListingScreen() {
     };
 
     const handleSubmit = async () => {
-        if (!user) {
+        if (!firebaseUser) {
             Alert.alert("Error", "Anda harus login terlebih dahulu");
             return;
         }
@@ -77,8 +79,8 @@ export default function AddListingScreen() {
 
         setIsLoading(true);
         try {
-            const { error } = await supabase.from("boarding_houses").insert({
-                owner_id: user.id,
+            await createBoardingHouse({
+                owner_id: firebaseUser.uid,
                 name: form.name,
                 description: form.description || null,
                 price_per_month: parseInt(form.price),
@@ -89,12 +91,10 @@ export default function AddListingScreen() {
                 status: "pending",
             });
 
-            if (error) throw error;
-
             Alert.alert(
                 "Sukses",
                 "Kos berhasil didaftarkan! Menunggu persetujuan admin.",
-                [{ text: "OK", onPress: () => router.back() }]
+                [{ text: "OK", onPress: () => router.back() }],
             );
         } catch (error) {
             console.error(error);
@@ -109,7 +109,10 @@ export default function AddListingScreen() {
             behavior={Platform.OS === "ios" ? "padding" : "height"}
             className="flex-1 bg-white"
         >
-            <View className="flex-row items-center border-b border-gray-100 px-4 pb-4 pt-14">
+            <View
+                className="flex-row items-center border-b border-gray-100 px-4 pb-4"
+                style={{ paddingTop: insets.top + 8 }}
+            >
                 <TouchableOpacity
                     onPress={() => router.back()}
                     className="mr-4 h-10 w-10 items-center justify-center rounded-full bg-gray-100"
@@ -244,7 +247,7 @@ export default function AddListingScreen() {
                             <Monicon
                                 name="material-symbols:my-location-rounded"
                                 size={18}
-                                color="#6366F1"
+                                color="#1b988d"
                             />
                             <Text
                                 weight="medium"
@@ -269,7 +272,10 @@ export default function AddListingScreen() {
                 <View className="h-32" />
             </ScrollView>
 
-            <View className="border-t border-gray-100 bg-white px-6 py-4">
+            <View
+                className="border-t border-gray-100 bg-white px-6 py-4"
+                style={{ paddingBottom: Math.max(insets.bottom, 16) }}
+            >
                 <TouchableOpacity
                     onPress={handleSubmit}
                     disabled={isLoading}

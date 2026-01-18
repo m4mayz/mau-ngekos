@@ -1,7 +1,11 @@
 import LeafletMap from "@/components/map/LeafletMap";
 import Text from "@/components/ui/Text";
-import { supabase } from "@/lib/supabase";
-import { BoardingHouse, HouseImage } from "@/types/database";
+import {
+    FirestoreBoardingHouse,
+    FirestoreHouseImage,
+    getBoardingHouse,
+    getHouseImages,
+} from "@/lib/firestore";
 import { Monicon } from "@monicon/native";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { useEffect, useState } from "react";
@@ -13,12 +17,14 @@ import {
     TouchableOpacity,
     View,
 } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 export default function KosDetailScreen() {
     const { id } = useLocalSearchParams<{ id: string }>();
     const router = useRouter();
-    const [house, setHouse] = useState<BoardingHouse | null>(null);
-    const [images, setImages] = useState<HouseImage[]>([]);
+    const insets = useSafeAreaInsets();
+    const [house, setHouse] = useState<FirestoreBoardingHouse | null>(null);
+    const [images, setImages] = useState<FirestoreHouseImage[]>([]);
     const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
@@ -28,21 +34,17 @@ export default function KosDetailScreen() {
     const fetchHouseDetail = async () => {
         if (!id) return;
 
-        const { data: houseData, error } = await supabase
-            .from("boarding_houses")
-            .select("*")
-            .eq("id", id)
-            .single();
+        try {
+            const houseData = await getBoardingHouse(id);
+            if (houseData) setHouse(houseData);
 
-        if (houseData && !error) setHouse(houseData);
-
-        const { data: imageData } = await supabase
-            .from("house_images")
-            .select("*")
-            .eq("house_id", id);
-
-        if (imageData) setImages(imageData);
-        setIsLoading(false);
+            const imageData = await getHouseImages(id);
+            setImages(imageData);
+        } catch (error) {
+            console.error("Error fetching house:", error);
+        } finally {
+            setIsLoading(false);
+        }
     };
 
     const formatPrice = (price: number) => {
@@ -56,24 +58,24 @@ export default function KosDetailScreen() {
     const openWhatsApp = () => {
         if (!house) return;
         const message = encodeURIComponent(
-            `Halo, saya tertarik dengan kos "${house.name}" yang ada di MauNgekos. Apakah masih tersedia?`
+            `Halo, saya tertarik dengan kos "${house.name}" yang ada di MauNgekos. Apakah masih tersedia?`,
         );
         Linking.openURL(
-            `https://wa.me/${house.whatsapp_number.replace(/[^0-9]/g, "")}?text=${message}`
+            `https://wa.me/${house.whatsapp_number.replace(/[^0-9]/g, "")}?text=${message}`,
         );
     };
 
     const openMaps = () => {
         if (!house) return;
         Linking.openURL(
-            `https://www.google.com/maps/dir/?api=1&destination=${house.latitude},${house.longitude}`
+            `https://www.google.com/maps/dir/?api=1&destination=${house.latitude},${house.longitude}`,
         );
     };
 
     if (isLoading) {
         return (
             <View className="flex-1 items-center justify-center bg-white">
-                <ActivityIndicator size="large" color="#6366F1" />
+                <ActivityIndicator size="large" color="#1b988d" />
             </View>
         );
     }
@@ -121,7 +123,8 @@ export default function KosDetailScreen() {
 
                     <TouchableOpacity
                         onPress={() => router.back()}
-                        className="absolute left-4 top-12 h-10 w-10 items-center justify-center rounded-full bg-white/90"
+                        className="absolute left-4 h-10 w-10 items-center justify-center rounded-full bg-white/90"
+                        style={{ top: insets.top + 8 }}
                     >
                         <Monicon
                             name="material-symbols:arrow-back-rounded"
@@ -207,7 +210,7 @@ export default function KosDetailScreen() {
                             <Monicon
                                 name="material-symbols:directions-rounded"
                                 size={24}
-                                color="#6366F1"
+                                color="#1b988d"
                             />
                             <Text
                                 weight="medium"
@@ -218,7 +221,7 @@ export default function KosDetailScreen() {
                             <Monicon
                                 name="material-symbols:chevron-right-rounded"
                                 size={24}
-                                color="#6366F1"
+                                color="#1b988d"
                             />
                         </TouchableOpacity>
                     </View>
@@ -226,7 +229,10 @@ export default function KosDetailScreen() {
             </ScrollView>
 
             {/* Bottom Action */}
-            <View className="border-t border-gray-100 bg-white px-6 py-4">
+            <View
+                className="border-t border-gray-100 bg-white px-6 py-4"
+                style={{ paddingBottom: Math.max(insets.bottom, 16) }}
+            >
                 <TouchableOpacity
                     onPress={openWhatsApp}
                     className="flex-row items-center justify-center rounded-xl bg-green-500 py-4"

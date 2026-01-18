@@ -1,23 +1,23 @@
+import Text from "@/components/ui/Text";
 import { useAuth } from "@/contexts/AuthContext";
 import { Monicon } from "@monicon/native";
 import { useRouter } from "expo-router";
 import { useEffect } from "react";
-import { ActivityIndicator, Text, View } from "react-native";
+import { ActivityIndicator, View } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 export default function SplashScreen() {
     const { isLoading, isAuthenticated, role } = useAuth();
     const router = useRouter();
+    const insets = useSafeAreaInsets();
 
     useEffect(() => {
         if (isLoading) return;
 
-        // Delay for splash effect
         const timer = setTimeout(() => {
             if (!isAuthenticated) {
-                // Not logged in - show public map
                 router.replace("/(public)/map");
             } else {
-                // Logged in - navigate based on role
                 if (role === "admin") {
                     router.replace("/(app)/(admin)/dashboard");
                 } else if (role === "owner") {
@@ -32,7 +32,10 @@ export default function SplashScreen() {
     }, [isLoading, isAuthenticated, role]);
 
     return (
-        <View className="flex-1 items-center justify-center bg-primary">
+        <View
+            className="flex-1 items-center justify-center bg-primary"
+            style={{ paddingTop: insets.top, paddingBottom: insets.bottom }}
+        >
             <View className="items-center">
                 <Monicon
                     name="material-symbols:location-home-rounded"
@@ -40,6 +43,7 @@ export default function SplashScreen() {
                     color="#ffffff"
                 />
                 <Text
+                    weight="bold"
                     className="mt-4 text-3xl text-white"
                     style={{ fontFamily: "Manrope_700Bold" }}
                 >

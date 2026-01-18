@@ -1,7 +1,9 @@
 import Text from "@/components/ui/Text";
 import { useAuth } from "@/contexts/AuthContext";
-import { supabase } from "@/lib/supabase";
-import { BoardingHouse } from "@/types/database";
+import {
+    FirestoreBoardingHouse,
+    getBoardingHousesByOwner,
+} from "@/lib/firestore";
 import { Monicon } from "@monicon/native";
 import { useRouter } from "expo-router";
 import { useEffect, useState } from "react";
@@ -12,30 +14,32 @@ import {
     TouchableOpacity,
     View,
 } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 export default function OwnerDashboardScreen() {
     const router = useRouter();
-    const { user } = useAuth();
-    const [houses, setHouses] = useState<BoardingHouse[]>([]);
+    const insets = useSafeAreaInsets();
+    const { firebaseUser } = useAuth();
+    const [houses, setHouses] = useState<FirestoreBoardingHouse[]>([]);
     const [isLoading, setIsLoading] = useState(true);
     const [isRefreshing, setIsRefreshing] = useState(false);
 
     useEffect(() => {
-        if (user) fetchMyHouses();
-    }, [user]);
+        if (firebaseUser) fetchMyHouses();
+    }, [firebaseUser]);
 
     const fetchMyHouses = async () => {
-        if (!user) return;
+        if (!firebaseUser) return;
 
-        const { data, error } = await supabase
-            .from("boarding_houses")
-            .select("*")
-            .eq("owner_id", user.id)
-            .order("created_at", { ascending: false });
-
-        if (data && !error) setHouses(data);
-        setIsLoading(false);
-        setIsRefreshing(false);
+        try {
+            const data = await getBoardingHousesByOwner(firebaseUser.uid);
+            setHouses(data);
+        } catch (error) {
+            console.error("Error fetching houses:", error);
+        } finally {
+            setIsLoading(false);
+            setIsRefreshing(false);
+        }
     };
 
     const formatPrice = (price: number) => {
@@ -70,14 +74,17 @@ export default function OwnerDashboardScreen() {
     if (isLoading) {
         return (
             <View className="flex-1 items-center justify-center bg-gray-50">
-                <ActivityIndicator size="large" color="#6366F1" />
+                <ActivityIndicator size="large" color="#1b988d" />
             </View>
         );
     }
 
     return (
         <View className="flex-1 bg-gray-50">
-            <View className="bg-primary px-6 pb-6 pt-14">
+            <View
+                className="bg-primary px-6 pb-6"
+                style={{ paddingTop: insets.top + 16 }}
+            >
                 <Text weight="bold" className="text-2xl text-white">
                     Kos Saya
                 </Text>
@@ -160,9 +167,9 @@ export default function OwnerDashboardScreen() {
                                         </Text>
                                     </Text>
                                     <Text className="text-sm text-gray-400">
-                                        {new Date(
-                                            house.created_at
-                                        ).toLocaleDateString("id-ID")}
+                                        {house.created_at
+                                            .toDate()
+                                            .toLocaleDateString("id-ID")}
                                     </Text>
                                 </View>
                             </View>
@@ -175,7 +182,8 @@ export default function OwnerDashboardScreen() {
             {/* FAB Add */}
             <TouchableOpacity
                 onPress={() => router.push("/(app)/(owner)/add-listing")}
-                className="absolute bottom-24 right-6 h-14 w-14 items-center justify-center rounded-full bg-primary shadow-lg"
+                className="absolute right-6 h-14 w-14 items-center justify-center rounded-full bg-primary shadow-lg"
+                style={{ bottom: 100 }}
             >
                 <Monicon
                     name="material-symbols:add-rounded"

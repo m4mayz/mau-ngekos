@@ -1,14 +1,16 @@
 import Text from "@/components/ui/Text";
 import { useAuth } from "@/contexts/AuthContext";
 import { auth } from "@/lib/firebase";
-import { supabase } from "@/lib/supabase";
+import { updateUser } from "@/lib/firestore";
 import { Monicon } from "@monicon/native";
 import { useRouter } from "expo-router";
 import { signOut } from "firebase/auth";
 import { Alert, ScrollView, TouchableOpacity, View } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 export default function ProfileScreen() {
     const router = useRouter();
+    const insets = useSafeAreaInsets();
     const { user, firebaseUser, refreshUser } = useAuth();
 
     const handleLogout = async () => {
@@ -18,39 +20,45 @@ export default function ProfileScreen() {
                 text: "Keluar",
                 style: "destructive",
                 onPress: async () => {
-                    await signOut(auth);
-                    router.replace("/");
+                    try {
+                        await signOut(auth);
+                        // Navigate to login after signOut
+                        router.replace("/(auth)/login");
+                    } catch (error) {
+                        console.error("Logout error:", error);
+                        Alert.alert("Error", "Gagal keluar. Coba lagi.");
+                    }
                 },
             },
         ]);
     };
 
     const handleBecomeOwner = async () => {
-        if (!user) return;
+        if (!firebaseUser) return;
 
         Alert.alert(
-            "Jadi Penyewa Kos",
-            "Apakah kamu ingin menjadi penyewa kos dan memasang iklan?",
+            "Jadi Pemilik Kos",
+            "Apakah kamu ingin menjadi pemilik kos dan memasang iklan?",
             [
                 { text: "Batal", style: "cancel" },
                 {
                     text: "Ya, Lanjutkan",
                     onPress: async () => {
-                        const { error } = await supabase
-                            .from("users")
-                            .update({ role: "owner" })
-                            .eq("id", user.id);
-
-                        if (!error) {
+                        try {
+                            await updateUser(firebaseUser.uid, {
+                                role: "owner",
+                            });
                             await refreshUser();
                             Alert.alert(
                                 "Sukses",
-                                "Role berhasil diubah menjadi Owner!"
+                                "Role berhasil diubah menjadi Owner!",
                             );
+                        } catch (error) {
+                            Alert.alert("Error", "Gagal mengubah role");
                         }
                     },
                 },
-            ]
+            ],
         );
     };
 
@@ -73,7 +81,10 @@ export default function ProfileScreen() {
 
     return (
         <ScrollView className="flex-1 bg-gray-50">
-            <View className="bg-primary px-6 pb-8 pt-16">
+            <View
+                className="bg-primary px-6 pb-8"
+                style={{ paddingTop: insets.top + 16 }}
+            >
                 <Text weight="bold" className="text-2xl text-white">
                     Profil
                 </Text>
@@ -86,7 +97,7 @@ export default function ProfileScreen() {
                         <Monicon
                             name="material-symbols:person-rounded"
                             size={48}
-                            color="#6366F1"
+                            color="#1b988d"
                         />
                     </View>
                     <Text weight="bold" className="mt-4 text-xl text-gray-900">
@@ -108,7 +119,10 @@ export default function ProfileScreen() {
             </View>
 
             {/* Menu Items */}
-            <View className="mx-4 mt-6 rounded-2xl bg-white shadow">
+            <View
+                className="mx-4 mt-6 rounded-2xl bg-white shadow"
+                style={{ marginBottom: insets.bottom + 100 }}
+            >
                 {user?.phone_number && (
                     <View className="flex-row items-center border-b border-gray-100 px-4 py-4">
                         <Monicon

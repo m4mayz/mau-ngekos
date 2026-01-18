@@ -1,0 +1,8937 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9039197,
+          -6.9168888
+        ]
+      },
+      "properties": {
+        "name": "Cafe van Mila",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9086526,
+          -6.9131781
+        ]
+      },
+      "properties": {
+        "name": "Ngopi di Kebon Awi",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8975234,
+          -6.9106222
+        ]
+      },
+      "properties": {
+        "name": "VD Coffee",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8777305,
+          -6.9049059
+        ]
+      },
+      "properties": {
+        "name": "Kabumi Garden",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8737166,
+          -6.9072209
+        ]
+      },
+      "properties": {
+        "name": "Kedai Kopi Nusantara Sukabumi",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8909719,
+          -6.9074908
+        ]
+      },
+      "properties": {
+        "name": "Bike & Caffeine",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8961914,
+          -6.9063086
+        ]
+      },
+      "properties": {
+        "name": "Coffee.Sejiwa",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8591933,
+          -6.8960252
+        ]
+      },
+      "properties": {
+        "name": "Teras Cafe",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8995452,
+          -6.9126413
+        ]
+      },
+      "properties": {
+        "name": "Kedai neng iteung",
+        "category": "Kantor Perusahaan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9303913,
+          -6.917897
+        ]
+      },
+      "properties": {
+        "name": "Like Earth Coffee",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9372068,
+          -6.9073637
+        ]
+      },
+      "properties": {
+        "name": "D'Green Resto and Coffee",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9040144,
+          -6.916904
+        ]
+      },
+      "properties": {
+        "name": "Seecul Coffee Bar",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8916931,
+          -6.9079964
+        ]
+      },
+      "properties": {
+        "name": "Perdana Coffee",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8746508,
+          -6.9097521
+        ]
+      },
+      "properties": {
+        "name": "Kabar Baik",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9199599,
+          -6.9142624
+        ]
+      },
+      "properties": {
+        "name": "Habit Coffee",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9064907,
+          -6.8843541
+        ]
+      },
+      "properties": {
+        "name": "Moonshine Coffee & Space",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9081878,
+          -6.9166737
+        ]
+      },
+      "properties": {
+        "name": "Mason Coffee",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8842193,
+          -6.9161129
+        ]
+      },
+      "properties": {
+        "name": "Tifanice cafe & wisata",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.929665,
+          -6.9171048
+        ]
+      },
+      "properties": {
+        "name": "Yume Coffee",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9235813,
+          -6.9400865
+        ]
+      },
+      "properties": {
+        "name": "Red Brick Cafe",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8905146,
+          -6.9071756
+        ]
+      },
+      "properties": {
+        "name": "Kamsia Boba Sukabumi - Cisaat",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9182901,
+          -6.9175853
+        ]
+      },
+      "properties": {
+        "name": "Analog Koffiehuis",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9018241,
+          -6.9070421
+        ]
+      },
+      "properties": {
+        "name": "BC SUKMA ( Sukabumi MAXIM )",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8736992,
+          -6.906513
+        ]
+      },
+      "properties": {
+        "name": "ASA Cafe",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9324639,
+          -6.9172988
+        ]
+      },
+      "properties": {
+        "name": "Sunda Coffee & Space (Coffee Shop & Creative Space)",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9292178,
+          -6.9205311
+        ]
+      },
+      "properties": {
+        "name": "Garden city",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9179789,
+          -6.9162686
+        ]
+      },
+      "properties": {
+        "name": "Aurora Sky Grill & Cafe",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8995536,
+          -6.8985113
+        ]
+      },
+      "properties": {
+        "name": "Khumaira Cafe",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9213868,
+          -6.9102577
+        ]
+      },
+      "properties": {
+        "name": "Discovery Rooftop Cafe",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8951056,
+          -6.9106352
+        ]
+      },
+      "properties": {
+        "name": "Susu Murni Wangsit Sukabumi",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8818975,
+          -6.9011997
+        ]
+      },
+      "properties": {
+        "name": "ABADI CAFE - COFFE & BOBA Cibaraja",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9303695,
+          -6.9139579
+        ]
+      },
+      "properties": {
+        "name": "Everbloom Cafe",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9305169,
+          -6.9169895
+        ]
+      },
+      "properties": {
+        "name": "PRIDE PALACE COFFE N EATERY ( MUSIC & HOBBIES SPACE)",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9309622,
+          -6.9203866
+        ]
+      },
+      "properties": {
+        "name": "Haus! Dago Sukabumi",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9310191,
+          -6.919988
+        ]
+      },
+      "properties": {
+        "name": "Dago House Food and Coffee Bar",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9163431,
+          -6.9187496
+        ]
+      },
+      "properties": {
+        "name": "Kukira Coffee",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9336072,
+          -6.9138936
+        ]
+      },
+      "properties": {
+        "name": "Praline Sukabumi",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9339727,
+          -6.9224475
+        ]
+      },
+      "properties": {
+        "name": "Barn Coffee",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.930855,
+          -6.9204149
+        ]
+      },
+      "properties": {
+        "name": "Gourmet Coffeenery",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9449618,
+          -6.8840526
+        ]
+      },
+      "properties": {
+        "name": "Mokopi Jungle",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8346442,
+          -6.9016903
+        ]
+      },
+      "properties": {
+        "name": "SK CAFE Coffee Bar & Resto",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9263937,
+          -6.9284842
+        ]
+      },
+      "properties": {
+        "name": "The Gade Corner Coffee and Gold Sukabumi",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9174114,
+          -6.916138
+        ]
+      },
+      "properties": {
+        "name": "Kopi Janji Jiwa Sukabumi",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.944953,
+          -6.9225111
+        ]
+      },
+      "properties": {
+        "name": "Rutinitas coffee",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9273496,
+          -6.9202731
+        ]
+      },
+      "properties": {
+        "name": "Seecul Coffee Bar",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9269584,
+          -6.9156088
+        ]
+      },
+      "properties": {
+        "name": "KUSBICK COFFEE",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9345486,
+          -6.921026
+        ]
+      },
+      "properties": {
+        "name": "TOMORO COFFEE SUKABUMI TOSERBA SELAMAT",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9323851,
+          -6.9178775
+        ]
+      },
+      "properties": {
+        "name": "Tikkum",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9351942,
+          -6.9138142
+        ]
+      },
+      "properties": {
+        "name": "Viesta Coffee & Dining",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9234728,
+          -6.921457
+        ]
+      },
+      "properties": {
+        "name": "Coffee Chaproek",
+        "category": "Bar Kopi Espresso"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9001196,
+          -6.8880953
+        ]
+      },
+      "properties": {
+        "name": "KANASPACEID",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9294586,
+          -6.9173561
+        ]
+      },
+      "properties": {
+        "name": "Casa de Coffee",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9287538,
+          -6.922197
+        ]
+      },
+      "properties": {
+        "name": "Fore Coffee - Citimall Sukabumi",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9292051,
+          -6.9145677
+        ]
+      },
+      "properties": {
+        "name": "K&J Coffee",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9249364,
+          -6.9216695
+        ]
+      },
+      "properties": {
+        "name": "C'KOPI GAUD",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.94169,
+          -6.8939638
+        ]
+      },
+      "properties": {
+        "name": "Somewhere Coffee",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9309856,
+          -6.9202609
+        ]
+      },
+      "properties": {
+        "name": "Kopi Tekun Sukabumi",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9363358,
+          -6.9178803
+        ]
+      },
+      "properties": {
+        "name": "Kaisha palace Food and coffee",
+        "category": "Kafe seni"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9249425,
+          -6.9337058
+        ]
+      },
+      "properties": {
+        "name": "MOKODO SPACE",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.93573,
+          -6.916477
+        ]
+      },
+      "properties": {
+        "name": "MARA cafe",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9299471,
+          -6.9175535
+        ]
+      },
+      "properties": {
+        "name": "Seecul Coffee Bar",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.93087,
+          -6.9223259
+        ]
+      },
+      "properties": {
+        "name": "Kopitiam Zakse",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9105151,
+          -6.9183943
+        ]
+      },
+      "properties": {
+        "name": "Dakara Coffee Sukabumi",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9313126,
+          -6.917467
+        ]
+      },
+      "properties": {
+        "name": "Brue",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9492343,
+          -6.8581436
+        ]
+      },
+      "properties": {
+        "name": "Mouvie Cafe",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9272189,
+          -6.9214966
+        ]
+      },
+      "properties": {
+        "name": "PlayClub Coffee",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9305169,
+          -6.9169895
+        ]
+      },
+      "properties": {
+        "name": "Tji Colle Eatery And Coffe Shop",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.921985,
+          -6.920619
+        ]
+      },
+      "properties": {
+        "name": "Esteh Indonesia Sukabumi",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9130487,
+          -6.9459253
+        ]
+      },
+      "properties": {
+        "name": "Cafe Nyoempoet",
+        "category": "Sesuai untuk keluarga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9044169,
+          -6.8808025
+        ]
+      },
+      "properties": {
+        "name": "Kopibumi Sukabumi",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8997186,
+          -6.9124876
+        ]
+      },
+      "properties": {
+        "name": "Chade cafe",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9346821,
+          -6.9110476
+        ]
+      },
+      "properties": {
+        "name": "Kedai Kopi 35",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9253477,
+          -6.9200698
+        ]
+      },
+      "properties": {
+        "name": "Seecul Signature Kaum",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.932235,
+          -6.9174808
+        ]
+      },
+      "properties": {
+        "name": "Co-Feed Coffee",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9415424,
+          -6.9050142
+        ]
+      },
+      "properties": {
+        "name": "Kopi Nako Sukabumi",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9189909,
+          -6.9490327
+        ]
+      },
+      "properties": {
+        "name": "The Backyard Cafe by Berkah",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9268733,
+          -6.9215855
+        ]
+      },
+      "properties": {
+        "name": "Sukabumi Coffee Center",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.936698,
+          -6.9085068
+        ]
+      },
+      "properties": {
+        "name": "Laoban Kopitiam By Uncle Osh Sukabumi",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9220268,
+          -6.9214846
+        ]
+      },
+      "properties": {
+        "name": "Bistro 99 Resto & Cafe",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9368091,
+          -6.9186607
+        ]
+      },
+      "properties": {
+        "name": "Ground 68 Coffe & Eatery",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9368091,
+          -6.9186607
+        ]
+      },
+      "properties": {
+        "name": "Ground 68 Coffe & Eatery",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9226938,
+          -6.9215496
+        ]
+      },
+      "properties": {
+        "name": "HAUS BENTENG SUKABUMI",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9023289,
+          -6.9117749
+        ]
+      },
+      "properties": {
+        "name": "MABES WARRIOR COFEE SUKABUMI",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9353048,
+          -6.9142644
+        ]
+      },
+      "properties": {
+        "name": "Butler Bar & Bistro",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9363307,
+          -6.9182585
+        ]
+      },
+      "properties": {
+        "name": "Starbucks Siliwangi Sukabumi",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9258393,
+          -6.9173096
+        ]
+      },
+      "properties": {
+        "name": "Kopi Kamana - Sriwidari",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9282451,
+          -6.9188451
+        ]
+      },
+      "properties": {
+        "name": "Milan Pizzeria Cafe",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8112061,
+          -6.8858975
+        ]
+      },
+      "properties": {
+        "name": "Kopi Pontis",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9185139,
+          -6.917984
+        ]
+      },
+      "properties": {
+        "name": "All Sunday exp project",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9263428,
+          -6.9218978
+        ]
+      },
+      "properties": {
+        "name": "KOPDARAN YMCI CHAPTER SUKABUMI",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9297769,
+          -6.9174929
+        ]
+      },
+      "properties": {
+        "name": "Mr Ebood Sukabumi 1",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9110689,
+          -6.9178556
+        ]
+      },
+      "properties": {
+        "name": "KEDAI DM STREET FOOD SUKABUMI",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.879944,
+          -6.9036322
+        ]
+      },
+      "properties": {
+        "name": "Warkop bilakia Sukabumi",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9331877,
+          -6.9128191
+        ]
+      },
+      "properties": {
+        "name": "Warga Holy",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.94039,
+          -6.9469137
+        ]
+      },
+      "properties": {
+        "name": "OREGONCOFFEEBAR",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9313392,
+          -6.9173268
+        ]
+      },
+      "properties": {
+        "name": "Kedai Saribhumi",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9357845,
+          -6.9148532
+        ]
+      },
+      "properties": {
+        "name": "Point Coffee Fresh Raden Samsudin",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9297307,
+          -6.9201946
+        ]
+      },
+      "properties": {
+        "name": "Kalijodocoffee Sukabumi",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9313158,
+          -6.9166462
+        ]
+      },
+      "properties": {
+        "name": "Kopi Dermawan",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8494287,
+          -6.9022225
+        ]
+      },
+      "properties": {
+        "name": "KOPI SUKABUMI",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.933955,
+          -6.911936
+        ]
+      },
+      "properties": {
+        "name": "\"Suatu Hari\" (creative space & mini cafe)",
+        "category": "Kafe seni"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9336938,
+          -6.9185184
+        ]
+      },
+      "properties": {
+        "name": "Brunch Recipe Cafe",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9349729,
+          -6.9107794
+        ]
+      },
+      "properties": {
+        "name": "The Secret Chamber Coffee",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9363569,
+          -6.9175019
+        ]
+      },
+      "properties": {
+        "name": "Anomaly Board Game Cafe",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8956446,
+          -6.9109174
+        ]
+      },
+      "properties": {
+        "name": "Warung Kopi PALUGADA Sukabumi",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9621216,
+          -6.9121125
+        ]
+      },
+      "properties": {
+        "name": "Delapan Belas Cafe",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8470199,
+          -6.9018934
+        ]
+      },
+      "properties": {
+        "name": "Ubi Cilembu Sukabumi",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9268534,
+          -6.9219468
+        ]
+      },
+      "properties": {
+        "name": "GBK Sukabumi",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9339108,
+          -6.9226835
+        ]
+      },
+      "properties": {
+        "name": "Mr.yos",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9313277,
+          -6.9174261
+        ]
+      },
+      "properties": {
+        "name": "Gang Makmoer",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9357207,
+          -6.9103619
+        ]
+      },
+      "properties": {
+        "name": "KANAWA",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9298832,
+          -6.9150631
+        ]
+      },
+      "properties": {
+        "name": "TAWACOFFEE SUKABUMI",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9467529,
+          -6.8817859
+        ]
+      },
+      "properties": {
+        "name": "Mason Coffee",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9492287,
+          -6.8751112
+        ]
+      },
+      "properties": {
+        "name": "The Uluwatu Galdery",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9268481,
+          -6.921928
+        ]
+      },
+      "properties": {
+        "name": "Console coffee",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9348388,
+          -6.9119694
+        ]
+      },
+      "properties": {
+        "name": "Photo Coffee Eat & Drink Sukabumi",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9314545,
+          -6.9182828
+        ]
+      },
+      "properties": {
+        "name": "Pusat Jajanan Sukabumi Dago",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.928157,
+          -6.913357
+        ]
+      },
+      "properties": {
+        "name": "D'Joglo Odjo Dumeh",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9264219,
+          -6.9219096
+        ]
+      },
+      "properties": {
+        "name": "Satu Kenangan - Ahmad Yani Sukabumi",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9264121,
+          -6.918832
+        ]
+      },
+      "properties": {
+        "name": "Kopi Merdeka Sukabumi",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9367039,
+          -6.918992
+        ]
+      },
+      "properties": {
+        "name": "Restaurant Sunda Rasa Sukabumi",
+        "category": "Restoran Sunda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9359431,
+          -6.9196963
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Haroem Sari",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9362257,
+          -6.9185767
+        ]
+      },
+      "properties": {
+        "name": "De Kebondjati",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9210714,
+          -6.9509184
+        ]
+      },
+      "properties": {
+        "name": "PANORAMA RESTO AND CAFE",
+        "category": "Restoran Sunda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9194507,
+          -6.9187583
+        ]
+      },
+      "properties": {
+        "name": "Mamih Ungu Resto and Cafe",
+        "category": "Restoran Indonesia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9324112,
+          -6.9176893
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Cikole Sukabumi",
+        "category": "Restoran Masakan Ayam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9394246,
+          -6.9458863
+        ]
+      },
+      "properties": {
+        "name": "RM Saung Karang Ni'mat",
+        "category": "Restoran Sunda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9314186,
+          -6.9225307
+        ]
+      },
+      "properties": {
+        "name": "Seoul little",
+        "category": "Restoran Korea"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8036274,
+          -6.8947584
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Sunda Neira",
+        "category": "Restoran Sunda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9331533,
+          -6.9146862
+        ]
+      },
+      "properties": {
+        "name": "RM Ibu Bunut",
+        "category": "Restoran Sunda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9354074,
+          -6.9116727
+        ]
+      },
+      "properties": {
+        "name": "Waroeng Semesta",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9220751,
+          -6.9207264
+        ]
+      },
+      "properties": {
+        "name": "Soedirman Street Food",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9340693,
+          -6.9114262
+        ]
+      },
+      "properties": {
+        "name": "roemah om sinyo",
+        "category": "Rumah Makan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9294602,
+          -6.917268
+        ]
+      },
+      "properties": {
+        "name": "Botram Resto",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9325596,
+          -6.9161949
+        ]
+      },
+      "properties": {
+        "name": "Ladaland Sukabumi",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9324408,
+          -6.9502994
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Sunda Kang Abah",
+        "category": "Restoran Sunda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9287682,
+          -6.9188289
+        ]
+      },
+      "properties": {
+        "name": "Mang Kabayan Sukabumi",
+        "category": "Restoran Sunda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9367248,
+          -6.90814
+        ]
+      },
+      "properties": {
+        "name": "Rumah Seafood Sukabumi",
+        "category": "Restoran Seafood"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9380888,
+          -6.9487956
+        ]
+      },
+      "properties": {
+        "name": "Bebek Jontor Jalur Sukabumi",
+        "category": "Restoran Indonesia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9193211,
+          -6.9501267
+        ]
+      },
+      "properties": {
+        "name": "RM Saung Hegar Rizky",
+        "category": "Restoran Sunda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9346619,
+          -6.9145576
+        ]
+      },
+      "properties": {
+        "name": "RM Ayam Bunut",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.936271,
+          -6.9092521
+        ]
+      },
+      "properties": {
+        "name": "Waroeng Restoe Iboe",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9336072,
+          -6.9138936
+        ]
+      },
+      "properties": {
+        "name": "Praline Sukabumi",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9293057,
+          -6.9202022
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Athiam",
+        "category": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8936885,
+          -6.9239743
+        ]
+      },
+      "properties": {
+        "name": "Saung Liwet Mak Onot",
+        "category": "Rumah Makan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9408064,
+          -6.9226547
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Jam Gadang Ciaul",
+        "category": "Rumah Makan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7954403,
+          -6.8946367
+        ]
+      },
+      "properties": {
+        "name": "IKAN BAKAR CIBADAK - SEAFOOD RESTO & CAFE",
+        "category": "Hidangan Laut"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.938621,
+          -6.897057
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Jam Gadang Selabintana Sukabumi",
+        "category": "Padang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9302403,
+          -6.9126439
+        ]
+      },
+      "properties": {
+        "name": "Rumah makan padang SARASA",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.891822,
+          -6.9061536
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Teh Ica",
+        "category": "Sunda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9220268,
+          -6.9214846
+        ]
+      },
+      "properties": {
+        "name": "Bistro 99 Resto & Cafe",
+        "category": "Sesuai untuk keluarga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8864176,
+          -6.9043724
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan \"SUNDA NGEUNAH\"",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9251829,
+          -6.9360843
+        ]
+      },
+      "properties": {
+        "name": "Ale's Place Cipoho | Restoran Jepang Halal di Kota Sukabumi",
+        "category": "Jepang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7683977,
+          -6.9541188
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Larosse",
+        "category": "Sunda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9339015,
+          -6.9228074
+        ]
+      },
+      "properties": {
+        "name": "Rasa Roemah",
+        "category": "Indonesia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8142108,
+          -6.8960197
+        ]
+      },
+      "properties": {
+        "name": "Rumah makan Neng Ardila",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9297708,
+          -6.9510995
+        ]
+      },
+      "properties": {
+        "name": "RUMAH MAKAN JALUR SUNDA",
+        "category": "Restoran makanan pedesaan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9342517,
+          -6.9496118
+        ]
+      },
+      "properties": {
+        "name": "Warung Nasi Adang",
+        "category": "Sunda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9216875,
+          -6.9504375
+        ]
+      },
+      "properties": {
+        "name": "Tuna Bakar Cafe & Resto",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9324199,
+          -6.9158718
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan BUNDA",
+        "category": "Padang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9231898,
+          -6.9002113
+        ]
+      },
+      "properties": {
+        "name": "Surabi Tasik Pak Asep",
+        "category": "Rumah Makan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9362413,
+          -6.9093148
+        ]
+      },
+      "properties": {
+        "name": "Warung Makan 99 A",
+        "category": "Sunda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9212758,
+          -6.9262338
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Bu Hj. Lia",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9352417,
+          -6.9236737
+        ]
+      },
+      "properties": {
+        "name": "KHAIRA AYAM GORENG SUKABUMI",
+        "category": "Ayam Goreng"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.930879,
+          -6.9511197
+        ]
+      },
+      "properties": {
+        "name": "Saung Indung",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9349334,
+          -6.9122668
+        ]
+      },
+      "properties": {
+        "name": "Bubur Ayam Bunut Siliwangi",
+        "category": "Bubur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.919863,
+          -6.9490267
+        ]
+      },
+      "properties": {
+        "name": "Waroeng ASRIE Sukabumi Jalur",
+        "category": "Hidangan Laut"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9436713,
+          -6.9598514
+        ]
+      },
+      "properties": {
+        "name": "Kari am Garuda resto",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9415424,
+          -6.9050142
+        ]
+      },
+      "properties": {
+        "name": "Kopi Nako Sukabumi",
+        "category": "Kedai Kopi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9180601,
+          -6.9195693
+        ]
+      },
+      "properties": {
+        "name": "Warung nasi mamah",
+        "category": "Nasi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9327889,
+          -6.9293475
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Padang Elok Basamo",
+        "category": "Padang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8956655,
+          -6.9069781
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Bang Basir Masakan Padang",
+        "category": "Padang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8790838,
+          -6.9040448
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Toboh Mandiri",
+        "category": "Padang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9229408,
+          -6.9211658
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Simpang Baru",
+        "category": "Padang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9357239,
+          -6.9099841
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Ibu Baba",
+        "category": "Sunda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9379117,
+          -6.9029641
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Rumah Gadang",
+        "category": "Padang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7835625,
+          -6.8924375
+        ]
+      },
+      "properties": {
+        "name": "LEGO STREET FOOD COURT CIBADAK",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9211587,
+          -6.9362688
+        ]
+      },
+      "properties": {
+        "name": "Rm.pak Nano",
+        "category": "Sunda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9514854,
+          -6.9151808
+        ]
+      },
+      "properties": {
+        "name": "Rumah makan masakan padang ELOK DI CUBO",
+        "category": "Padang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9215973,
+          -6.9090112
+        ]
+      },
+      "properties": {
+        "name": "Mie SP Seuhah Pisan Karamat",
+        "category": "Mi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9379117,
+          -6.9029641
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Rumah Gadang",
+        "category": "Padang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7836906,
+          -6.892704
+        ]
+      },
+      "properties": {
+        "name": "Lego Lagi",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9249364,
+          -6.9216695
+        ]
+      },
+      "properties": {
+        "name": "Sate H. Mamat (Pusat)",
+        "category": "Sate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9365383,
+          -6.9360768
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Parasmanan",
+        "category": "Padang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9326492,
+          -6.9142283
+        ]
+      },
+      "properties": {
+        "name": "Warung Makan Dapur Sukabumi",
+        "category": "Indonesia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9232254,
+          -6.9404969
+        ]
+      },
+      "properties": {
+        "name": "Rumah makan Pak Idit",
+        "category": "Padang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9311327,
+          -6.9221144
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Elok Basamo ALvani",
+        "category": "Padang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8254917,
+          -6.900665
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Ibu Mimin",
+        "category": "Sunda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9499914,
+          -6.9007314
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Do'a Ibu",
+        "category": "Rumah Makan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7908157,
+          -6.8945837
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Padang Basalero",
+        "category": "Padang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.926938,
+          -6.9223973
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Ibu Denti",
+        "category": "Rumah Makan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8955629,
+          -6.9106157
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Seafood",
+        "category": "Hidangan Laut"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8991696,
+          -6.9124721
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Citra Rasa",
+        "category": "Padang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9206712,
+          -6.9080247
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Bakery",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8924547,
+          -6.905516
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Bintang Minang",
+        "category": "Padang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8358218,
+          -6.8959277
+        ]
+      },
+      "properties": {
+        "name": "Rumah makan abah",
+        "category": "Rumah Makan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8828292,
+          -6.915414
+        ]
+      },
+      "properties": {
+        "name": "Tahu Sumedang Jalur RM. H Didi",
+        "category": "Sunda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7719951,
+          -6.9453986
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Pak Ajo Cikembang",
+        "category": "Padang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9306352,
+          -6.9512476
+        ]
+      },
+      "properties": {
+        "name": "Rumah makan Talago Minang",
+        "category": "Padang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9349299,
+          -6.9109623
+        ]
+      },
+      "properties": {
+        "name": "Rumah makan sambal GAMI",
+        "category": "Indonesia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9391631,
+          -6.9223216
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Mamah Ezha",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7720293,
+          -6.9575057
+        ]
+      },
+      "properties": {
+        "name": "Rumah makan sunda ibu eneng",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8215124,
+          -6.8977547
+        ]
+      },
+      "properties": {
+        "name": "Kopi Panorama",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9363089,
+          -6.9173841
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Padang Aghai Pinang",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9319467,
+          -6.9345808
+        ]
+      },
+      "properties": {
+        "name": "Rumah makan uwo",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9363998,
+          -6.9084343
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Ibu Cicoh",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.895589,
+          -6.9074832
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8829544,
+          -6.908418
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Padang Talago Minang Cibatu",
+        "category": "Brunch"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9327053,
+          -6.929919
+        ]
+      },
+      "properties": {
+        "name": "RUMAH MAKAN T.M",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9432363,
+          -6.9632779
+        ]
+      },
+      "properties": {
+        "name": "Warung Makan Anugrah",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9377268,
+          -6.9045649
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Ateu Cisarua 10",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9577429,
+          -6.9191144
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Dapur Kita",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9063094,
+          -6.9564396
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Raos",
+        "category": "Indonesia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9307038,
+          -6.9169504
+        ]
+      },
+      "properties": {
+        "name": "Rumah makan mang iyan sukabumi",
+        "category": "Indonesia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9224603,
+          -6.9507382
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Putri Caniago Masakan Padang",
+        "category": "Padang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9346064,
+          -6.9179747
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Seafood Alam Laut",
+        "category": "Hidangan Laut"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9264101,
+          -6.9517237
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Minang Surya 2",
+        "category": "Makanan Siap Saji"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9379283,
+          -6.9207629
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Pak Uca",
+        "category": "Kafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9294079,
+          -6.9312036
+        ]
+      },
+      "properties": {
+        "name": "Rumah makan padang ampero saiyo",
+        "category": "Padang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7683981,
+          -6.9541173
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Cibadak Raya",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9179295,
+          -6.9487911
+        ]
+      },
+      "properties": {
+        "name": "RESTO RUMAH MAKAN LESEHAN ABAH WANDA",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8774497,
+          -6.9285295
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Bintang Minang",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9644334,
+          -6.917564
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Elvita Minang",
+        "category": "Padang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9308725,
+          -6.922216
+        ]
+      },
+      "properties": {
+        "name": "Rumah makan stopan Bu imas",
+        "category": "Rumah Makan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9294195,
+          -6.9224023
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Tunas Jaya",
+        "category": "Padang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.930158,
+          -6.9201147
+        ]
+      },
+      "properties": {
+        "name": "McDonald's Sukabumi indah plaza",
+        "category": "Makanan Siap Saji"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8685596,
+          -6.90547
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Pelangi",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7791501,
+          -6.9063316
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Lima Bersaudara",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9520121,
+          -6.9433886
+        ]
+      },
+      "properties": {
+        "name": "Rumah makan sagala aya",
+        "category": "Brunch"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9258099,
+          -6.9183315
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Padang Mutiara",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9264254,
+          -6.9255367
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Neng Geulis",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9219404,
+          -6.9232744
+        ]
+      },
+      "properties": {
+        "name": "Rumah makan-RUMPUN PADI",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8991151,
+          -6.9111038
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Nasi Padang Upik",
+        "category": "Rumah Makan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8830161,
+          -6.9025027
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Obat Lapar",
+        "category": "Ikan Bakar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8131833,
+          -6.8958028
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Pondok Selera",
+        "category": "Padang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9269587,
+          -6.9226136
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Soto Hj Maya Dan Masakan Sunda",
+        "category": "Makanan Siap Saji"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.935384,
+          -6.9207666
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Ibu Muslich",
+        "category": "Restoran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9244266,
+          -6.9365802
+        ]
+      },
+      "properties": {
+        "name": "Rumah makan sawargi H.ekih",
+        "category": "Rumah Makan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7820257,
+          -6.8920004
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Atira Masakan Padang",
+        "category": "Padang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.845454,
+          -6.9341991
+        ]
+      },
+      "properties": {
+        "name": "Rumah Makan Murah Saee (Masakan Padang)",
+        "category": "Brunch"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9340928,
+          -6.9187572
+        ]
+      },
+      "properties": {
+        "name": "Universitas Muhammadiyah Sukabumi",
+        "category": "Universitas Swasta"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9268549,
+          -6.9399803
+        ]
+      },
+      "properties": {
+        "name": "UNIVERSITAS LINGGABUANA PGRI SUKABUMI",
+        "category": "Perguruan Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.925441,
+          -6.9192488
+        ]
+      },
+      "properties": {
+        "name": "Institut Manajemen Wiyata Indonesia",
+        "category": "Perguruan Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8734604,
+          -6.9051363
+        ]
+      },
+      "properties": {
+        "name": "Nusa Putra University",
+        "category": "Perguruan Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9230968,
+          -6.9236321
+        ]
+      },
+      "properties": {
+        "name": "STH PASUNDAN SUKABUMI",
+        "category": "Universitas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9224582,
+          -6.9460767
+        ]
+      },
+      "properties": {
+        "name": "Institut Madani Nusantara (IMN)",
+        "category": "Universitas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9585255,
+          -6.9215668
+        ]
+      },
+      "properties": {
+        "name": "STKIP Bina Mutiara Sukabumi",
+        "category": "Perguruan Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9172014,
+          -6.9166573
+        ]
+      },
+      "properties": {
+        "name": "Sekolah Tinggi Agama Islam Syamsul Ulum",
+        "category": "Perguruan Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9046837,
+          -6.9155138
+        ]
+      },
+      "properties": {
+        "name": "Universitas Bina Sarana Informatika (UBSI) Kampus Sukabumi",
+        "category": "Perguruan Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.926295,
+          -6.918061
+        ]
+      },
+      "properties": {
+        "name": "Universitas Bina Sarana Informatika Sukabumi Kampus B",
+        "category": "Perguruan Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9127709,
+          -6.9197818
+        ]
+      },
+      "properties": {
+        "name": "Politeknik Sukabumi",
+        "category": "Politeknik"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8957871,
+          -6.9095318
+        ]
+      },
+      "properties": {
+        "name": "STISIP Widyapuri Mandiri Sukabumi",
+        "category": "Universitas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9181223,
+          -6.9084361
+        ]
+      },
+      "properties": {
+        "name": "UNIVERSITAS LINGGABUANA PGRI SUKABUMI KAMPUS 2",
+        "category": "Perguruan Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9102308,
+          -6.9173665
+        ]
+      },
+      "properties": {
+        "name": "Citra Buana Indonesia",
+        "category": "Universitas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8382278,
+          -6.9014982
+        ]
+      },
+      "properties": {
+        "name": "STAI AL-ANDINA SUKABUMI",
+        "category": "Perguruan Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9208512,
+          -6.9079623
+        ]
+      },
+      "properties": {
+        "name": "STIKes Sukabumi",
+        "category": "Sekolah Perawat"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.922833,
+          -6.948215
+        ]
+      },
+      "properties": {
+        "name": "STIE PASIM SUKABUMI",
+        "category": "Perguruan Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9481469,
+          -6.9079079
+        ]
+      },
+      "properties": {
+        "name": "Poltekes Yapkesbi Sukabumi",
+        "category": "Perguruan Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9232019,
+          -6.9485555
+        ]
+      },
+      "properties": {
+        "name": "Politeknik Bbc Sukabumi",
+        "category": "Perguruan Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9341089,
+          -6.9237034
+        ]
+      },
+      "properties": {
+        "name": "STMIK PASIM AL-FATH SUKABUMI",
+        "category": "Perguruan Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7733571,
+          -6.9309452
+        ]
+      },
+      "properties": {
+        "name": "STIBA AR-RAAYAH SUKABUMI",
+        "category": "Universitas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8740165,
+          -6.9084277
+        ]
+      },
+      "properties": {
+        "name": "SALUT CENDEKIA SUKABUMI",
+        "category": "Perguruan Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9368303,
+          -6.9147308
+        ]
+      },
+      "properties": {
+        "name": "STIE PASIM",
+        "category": "Perguruan Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9553261,
+          -6.9418665
+        ]
+      },
+      "properties": {
+        "name": "Kampus SV IPB Sukabumi",
+        "category": "Universitas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9294378,
+          -6.9216146
+        ]
+      },
+      "properties": {
+        "name": "Jalan PGRI Sukabumi",
+        "category": "Perguruan Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.870346,
+          -6.905583
+        ]
+      },
+      "properties": {
+        "name": "STAI Al-Masthuriyah",
+        "category": "Perguruan Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8542792,
+          -6.9102651
+        ]
+      },
+      "properties": {
+        "name": "Politeknik BBC Sukabumi Cabang 2 (Kampus Yannur)",
+        "category": "Perguruan Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9158024,
+          -6.9200384
+        ]
+      },
+      "properties": {
+        "name": "SALUT IPM SUKABUMI",
+        "category": "Perguruan Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9527375,
+          -6.9080314
+        ]
+      },
+      "properties": {
+        "name": "Akademi Farmasi Persada Sukabumi",
+        "category": "Perguruan Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9157202,
+          -6.8866858
+        ]
+      },
+      "properties": {
+        "name": "INSTITUT AGAMA ISLAM SUKABUMI",
+        "category": "Perguruan Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8907013,
+          -6.8996616
+        ]
+      },
+      "properties": {
+        "name": "Asluku",
+        "category": "Perguruan Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.934042,
+          -6.9184981
+        ]
+      },
+      "properties": {
+        "name": "Pintu masuk ummi",
+        "category": "Universitas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9119539,
+          -6.9178543
+        ]
+      },
+      "properties": {
+        "name": "Sekolah Tinggi Komputer & Pariwisata CBI",
+        "category": "Sekolah perhotelan dan pariwisata"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9332632,
+          -6.9227299
+        ]
+      },
+      "properties": {
+        "name": "SUKAROBOT ACADEMY",
+        "category": "Pusat Pendidikan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9243439,
+          -6.9113679
+        ]
+      },
+      "properties": {
+        "name": "Setukpa Polri (Sekolah Pembentukan Perwira)",
+        "category": "Perguruan Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8746931,
+          -6.9119061
+        ]
+      },
+      "properties": {
+        "name": "RW 06 Kp.Cipancur",
+        "category": "Perguruan tinggi negeri"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8892793,
+          -6.908521
+        ]
+      },
+      "properties": {
+        "name": "Rayon FTD universitas nusa putra",
+        "category": "Perguruan Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9252209,
+          -6.9421729
+        ]
+      },
+      "properties": {
+        "name": "STIE PGRl",
+        "category": "Perguruan Tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9309908,
+          -6.9390995
+        ]
+      },
+      "properties": {
+        "name": "SMA Negeri 1 Kota Sukabumi SMANSA",
+        "category": "Sekolah Menengah Umum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9264944,
+          -6.9362802
+        ]
+      },
+      "properties": {
+        "name": "SMKS PGRI 1 KOTA SUKABUMI",
+        "category": "Sekolah Menengah Kejuruan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9356718,
+          -6.9268079
+        ]
+      },
+      "properties": {
+        "name": "SMK Pelita YNH Kota Sukabumi",
+        "category": "Sekolah Menengah Kejuruan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9302106,
+          -6.9053523
+        ]
+      },
+      "properties": {
+        "name": "SMKN 1 Kota Sukabumi",
+        "category": "Sekolah menengah kejuruan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9313747,
+          -6.9195659
+        ]
+      },
+      "properties": {
+        "name": "SMAN 4 Kota Sukabumi",
+        "category": "Sekolah Menengah Atas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9176367,
+          -6.9055565
+        ]
+      },
+      "properties": {
+        "name": "SMAN 2 Sukabumi",
+        "category": "Sekolah Menengah Atas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9446041,
+          -6.920827
+        ]
+      },
+      "properties": {
+        "name": "SMAN 3 Sukabumi",
+        "category": "Sekolah Menengah Atas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9352116,
+          -6.918607
+        ]
+      },
+      "properties": {
+        "name": "Perguruan Tamansiswa Sukabumi",
+        "category": "Institusi Pendidikan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9528994,
+          -6.905568
+        ]
+      },
+      "properties": {
+        "name": "SMK Persada Kota Sukabumi",
+        "category": "Sekolah Menengah Kejuruan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.931383,
+          -6.9196957
+        ]
+      },
+      "properties": {
+        "name": "SMP NEGERI 1 Kota Sukabumi",
+        "category": "Sekolah Menengah Pertama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9316378,
+          -6.9427089
+        ]
+      },
+      "properties": {
+        "name": "MAN 1 Kota Sukabumi",
+        "category": "Sekolah Agama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9140974,
+          -6.9013387
+        ]
+      },
+      "properties": {
+        "name": "SMK Ulul Albab kota Sukabumi",
+        "category": "Sekolah Menengah Kejuruan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9160686,
+          -6.9267079
+        ]
+      },
+      "properties": {
+        "name": "SMK Abdi Bangsa Kota Sukabumi",
+        "category": "Sekolah Menengah Umum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9321937,
+          -6.9208575
+        ]
+      },
+      "properties": {
+        "name": "SMA Mardi Yuana Sukabumi",
+        "category": "Sekolah Menengah Atas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8945872,
+          -6.9000304
+        ]
+      },
+      "properties": {
+        "name": "Sekolah Alam Indonesia Sukabumi",
+        "category": "Sekolah Waldorf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9258822,
+          -6.9348919
+        ]
+      },
+      "properties": {
+        "name": "SMKN 2 Sukabumi",
+        "category": "Sekolah Menengah Kejuruan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9519737,
+          -6.9119026
+        ]
+      },
+      "properties": {
+        "name": "SMA Islam Al Azhar 21 Sukabumi",
+        "category": "Sekolah menengah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7838226,
+          -6.9001288
+        ]
+      },
+      "properties": {
+        "name": "Sekolah Menengah Atas Pesantren Unggul Al Bayan",
+        "category": "Sekolah Menengah Atas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8980854,
+          -6.9078133
+        ]
+      },
+      "properties": {
+        "name": "SD IT Adzkia 1 Sukabumi",
+        "category": "Sekolah pendidikan umum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9305928,
+          -6.9131055
+        ]
+      },
+      "properties": {
+        "name": "SD ISLAM AL AZHAR 7 SUKABUMI",
+        "category": "Sekolah Dasar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9348172,
+          -6.933493
+        ]
+      },
+      "properties": {
+        "name": "Yayasan Ummi Kulsum Sukabumi",
+        "category": "Kelompok Bermain"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7884498,
+          -6.8942854
+        ]
+      },
+      "properties": {
+        "name": "SMA INTERNASIONAL ISTANBUL AL FATH",
+        "category": "Sekolah Menengah Umum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8957871,
+          -6.9095318
+        ]
+      },
+      "properties": {
+        "name": "STISIP Widyapuri Mandiri Sukabumi",
+        "category": "Sekolah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9090452,
+          -6.920739
+        ]
+      },
+      "properties": {
+        "name": "MAN 2 Sukabumi",
+        "category": "Sekolah Menengah Umum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9516705,
+          -6.9452161
+        ]
+      },
+      "properties": {
+        "name": "SMAN 5 KOTA SUKABUMI",
+        "category": "Sekolah menengah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9176426,
+          -6.9043372
+        ]
+      },
+      "properties": {
+        "name": "SMA Pesantren Terpadu Hayatan Thayyibah Sukabumi",
+        "category": "Sekolah menengah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9302572,
+          -6.9050687
+        ]
+      },
+      "properties": {
+        "name": "SMKN 3 Negeri kota sukabumi",
+        "category": "Sekolah Menengah Khusus Wanita"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7733571,
+          -6.9309452
+        ]
+      },
+      "properties": {
+        "name": "STIBA AR-RAAYAH SUKABUMI",
+        "category": "Sekolah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8623904,
+          -6.9042305
+        ]
+      },
+      "properties": {
+        "name": "SMK Bina Mandiri Sukabumi",
+        "category": "Sekolah Menengah Kejuruan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.915029,
+          -6.9060063
+        ]
+      },
+      "properties": {
+        "name": "SDIT Andalusia Kota Sukabumi",
+        "category": "Sekolah Dasar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8681064,
+          -6.9034328
+        ]
+      },
+      "properties": {
+        "name": "Pondok Pesantren Sunanulhuda",
+        "category": "Yayasan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9307175,
+          -6.9371428
+        ]
+      },
+      "properties": {
+        "name": "SMA PGRI 1 KOTA SUKABUMI",
+        "category": "Sekolah menengah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9214102,
+          -6.9227997
+        ]
+      },
+      "properties": {
+        "name": "SMPN 11 Sukabumi",
+        "category": "Sekolah Menengah Pertama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9277292,
+          -6.950105
+        ]
+      },
+      "properties": {
+        "name": "SMP Negeri 8 Kota Sukabumi",
+        "category": "Sekolah menengah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9309559,
+          -6.9390346
+        ]
+      },
+      "properties": {
+        "name": "Gerbang SMA1 Sukabumi",
+        "category": "Sekolah Menengah Atas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7802553,
+          -6.8963378
+        ]
+      },
+      "properties": {
+        "name": "SMAN 1 Cibadak",
+        "category": "Sekolah Menengah Atas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9201485,
+          -6.9186011
+        ]
+      },
+      "properties": {
+        "name": "MIN Kota Sukabumi",
+        "category": "Sekolah Dasar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9311476,
+          -6.9210465
+        ]
+      },
+      "properties": {
+        "name": "SDK BPK Penabur Sukabumi",
+        "category": "Sekolah Dasar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9535394,
+          -6.9423897
+        ]
+      },
+      "properties": {
+        "name": "Sekolah Vokasi IPB Sukabumi",
+        "category": "Sekolah Menengah Kejuruan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9323478,
+          -6.9151287
+        ]
+      },
+      "properties": {
+        "name": "SMAK BPK PENABUR SUKABUMI",
+        "category": "Sekolah menengah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9145883,
+          -6.9061842
+        ]
+      },
+      "properties": {
+        "name": "SMPIT ANDALUSIA Kota Sukabumi",
+        "category": "Sekolah Menengah Pertama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9232178,
+          -6.9474728
+        ]
+      },
+      "properties": {
+        "name": "SLB B Budi Nurani Kota Sukabumi",
+        "category": "Sekolah Pendidikan Khusus"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9362466,
+          -6.9368027
+        ]
+      },
+      "properties": {
+        "name": "SMP Negeri 6 Sukabumi",
+        "category": "Sekolah Menengah Pertama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.931145,
+          -6.9424779
+        ]
+      },
+      "properties": {
+        "name": "MTsN KOTA SUKABUMI",
+        "category": "Sekolah Menengah Pertama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9361774,
+          -6.9279635
+        ]
+      },
+      "properties": {
+        "name": "RA ALKAUTSAR kota Sukabumi",
+        "category": "Taman Kanak-kanak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9355833,
+          -6.9456815
+        ]
+      },
+      "properties": {
+        "name": "Madania Global Islamic School",
+        "category": "Sekolah menengah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8799802,
+          -6.9250622
+        ]
+      },
+      "properties": {
+        "name": "SMAN 1 Cisaat",
+        "category": "Sekolah Menengah Atas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.934053,
+          -6.931947
+        ]
+      },
+      "properties": {
+        "name": "Sekolah Tahfizh Plus SD Khoiru Ummah Sukabumi",
+        "category": "Sekolah Dasar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9254104,
+          -6.9351203
+        ]
+      },
+      "properties": {
+        "name": "MTs. Muhammadiyah 1 kota sukabumi",
+        "category": "Sekolah Menengah Pertama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9314622,
+          -6.9186735
+        ]
+      },
+      "properties": {
+        "name": "SMP Negeri 2 Kota Sukabumi",
+        "category": "Sekolah Menengah Pertama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8213648,
+          -6.8980221
+        ]
+      },
+      "properties": {
+        "name": "SMA Doa Bangsa Cibadak",
+        "category": "Sekolah Menengah Atas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9038302,
+          -6.9165779
+        ]
+      },
+      "properties": {
+        "name": "SMK Teknologi Plus Padjadjaran Kota Sukabumi",
+        "category": "Sekolah Menengah Umum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.931039,
+          -6.9165922
+        ]
+      },
+      "properties": {
+        "name": "Yuwati Bhakti",
+        "category": "Sekolah Dasar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7712231,
+          -6.9184255
+        ]
+      },
+      "properties": {
+        "name": "Yayasan Baitul Hikmah Sukabumi",
+        "category": "Sekolah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9077333,
+          -6.9176681
+        ]
+      },
+      "properties": {
+        "name": "SMP Islam Al Azhar 7 Kota Sukabumi",
+        "category": "Sekolah Menengah Pertama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9460849,
+          -6.926356
+        ]
+      },
+      "properties": {
+        "name": "SDIT ADZKIA 2 SUKABUMI",
+        "category": "Sekolah pendidikan umum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9309622,
+          -6.9203866
+        ]
+      },
+      "properties": {
+        "name": "Sman 4 kota sukabumi",
+        "category": "Sekolah Menengah Umum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9371095,
+          -6.9148571
+        ]
+      },
+      "properties": {
+        "name": "Kb / Tk Pasim Ar Rayyan",
+        "category": "Sekolah Dasar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9077639,
+          -6.9182192
+        ]
+      },
+      "properties": {
+        "name": "TK Islam Al Azhar 7 Sukabumi",
+        "category": "Taman Kanak-kanak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9579829,
+          -6.9233285
+        ]
+      },
+      "properties": {
+        "name": "Pondok Pesantren Modern Al-Firdaus",
+        "category": "Sekolah pendidikan umum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9144804,
+          -6.9279432
+        ]
+      },
+      "properties": {
+        "name": "SMP Negeri 7 Kota Sukabumi",
+        "category": "Sekolah Menengah Pertama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.905535,
+          -6.915636
+        ]
+      },
+      "properties": {
+        "name": "MTs / MA Persis 68 Warudoyong Kota Sukabumi",
+        "category": "Sekolah Menengah Pertama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9327985,
+          -6.9204072
+        ]
+      },
+      "properties": {
+        "name": "...",
+        "category": "Sekolah Dasar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9224925,
+          -6.948459
+        ]
+      },
+      "properties": {
+        "name": "SLB-A Budi Nurani Kota Sukabumi",
+        "category": "Sekolah Tunarungu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9201753,
+          -6.9440386
+        ]
+      },
+      "properties": {
+        "name": "SMP Negeri 3 Sukabumi",
+        "category": "Sekolah Menengah Pertama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9145214,
+          -6.9010293
+        ]
+      },
+      "properties": {
+        "name": "Pondok Pesantren Ulul Albab Kota Sukabumi",
+        "category": "Sekolah asrama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9351998,
+          -6.9339799
+        ]
+      },
+      "properties": {
+        "name": "MIS Hidayatul Athfal Kota Sukabumi",
+        "category": "Sekolah Dasar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8704597,
+          -6.9053816
+        ]
+      },
+      "properties": {
+        "name": "SMA Al Masthuriyah",
+        "category": "Sekolah Menengah Umum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.931445,
+          -6.9170692
+        ]
+      },
+      "properties": {
+        "name": "SDN Dewi Sartika CBM",
+        "category": "Sekolah Dasar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.917768,
+          -6.916172
+        ]
+      },
+      "properties": {
+        "name": "Sekolah Khusus Insan Pelangi Mandiri Supervisi oleh EDUfa",
+        "category": "Psikolog Anak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9464638,
+          -6.9509108
+        ]
+      },
+      "properties": {
+        "name": "SMP Negeri 12 Sukabumi",
+        "category": "Sekolah Menengah Pertama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8989992,
+          -6.9080265
+        ]
+      },
+      "properties": {
+        "name": "SMP IT ADZKIA 1 SUKABUMI",
+        "category": "Sekolah Menengah Pertama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9229372,
+          -6.9271291
+        ]
+      },
+      "properties": {
+        "name": "SDN Pajagalan Kota Sukabumi",
+        "category": "Sekolah Dasar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9189238,
+          -6.9036008
+        ]
+      },
+      "properties": {
+        "name": "SMA NEGER 2 KARAMAT SUKABUMI",
+        "category": "Sekolah Menengah Umum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9253387,
+          -6.9025164
+        ]
+      },
+      "properties": {
+        "name": "SMP Negeri 4 Kota Sukabumi",
+        "category": "Sekolah Menengah Umum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9355216,
+          -6.9269321
+        ]
+      },
+      "properties": {
+        "name": "SMP PELITA YNH KOTA SUKABUMI",
+        "category": "Sekolah menengah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9445543,
+          -6.9197005
+        ]
+      },
+      "properties": {
+        "name": "SMP Negeri 15",
+        "category": "Sekolah Menengah Pertama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8868604,
+          -6.9117528
+        ]
+      },
+      "properties": {
+        "name": "MTs YASTI 1",
+        "category": "Sekolah Menengah Pertama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9356109,
+          -6.920078
+        ]
+      },
+      "properties": {
+        "name": "SDN Kebonjati kota sukabumi",
+        "category": "Sekolah Dasar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9127287,
+          -6.9075302
+        ]
+      },
+      "properties": {
+        "name": "SMA ISLAM TERPADU AL-FATH",
+        "category": "Sekolah Menengah Umum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9313293,
+          -6.9433193
+        ]
+      },
+      "properties": {
+        "name": "MTs 2 Kota Sukabumi",
+        "category": "Sekolah Menengah Pertama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9270503,
+          -6.9188404
+        ]
+      },
+      "properties": {
+        "name": "SD SMP SMA Advent Sukabumi",
+        "category": "Sekolah pendidikan umum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9366781,
+          -6.9216521
+        ]
+      },
+      "properties": {
+        "name": "TK Islam An Nuur Sukabumi",
+        "category": "Kelompok Bermain"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9312811,
+          -6.9201313
+        ]
+      },
+      "properties": {
+        "name": "SD Mardi Waluya",
+        "category": "Sekolah Dasar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7677327,
+          -6.9547942
+        ]
+      },
+      "properties": {
+        "name": "TK-SD-SMP NEGERI MODEL",
+        "category": "Sekolah Dasar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8953831,
+          -6.8998662
+        ]
+      },
+      "properties": {
+        "name": "SMP Islam Al-Anhar Sukabumi",
+        "category": "Sekolah Menengah Pertama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8868137,
+          -6.9046172
+        ]
+      },
+      "properties": {
+        "name": "TAUD AT-TARTIL SUKABUMI",
+        "category": "Taman Kanak-kanak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9362288,
+          -6.9369205
+        ]
+      },
+      "properties": {
+        "name": "SMPN 6 KOTA SUKABUMI",
+        "category": "Sekolah Menengah Pertama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8365926,
+          -6.9288185
+        ]
+      },
+      "properties": {
+        "name": "MIN 5 Sukabumi",
+        "category": "Sekolah Dasar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8066546,
+          -6.8944372
+        ]
+      },
+      "properties": {
+        "name": "SMKS Lodaya Sukabumi",
+        "category": "Sekolah menengah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9188635,
+          -6.9191175
+        ]
+      },
+      "properties": {
+        "name": "Golden Age Islamic School (GAIS)",
+        "category": "Sekolah pendidikan umum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9356264,
+          -6.91966
+        ]
+      },
+      "properties": {
+        "name": "SMP Negeri 5 Kota Sukabumi",
+        "category": "Sekolah Menengah Pertama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.870147,
+          -6.9055791
+        ]
+      },
+      "properties": {
+        "name": "Pondok Pesantren Al Masthuriyah",
+        "category": "Sekolah Agama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9244374,
+          -6.9388329
+        ]
+      },
+      "properties": {
+        "name": "PAUD Al Hidayah Kota Sukabumi",
+        "category": "Kelompok Bermain"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9518037,
+          -6.9449005
+        ]
+      },
+      "properties": {
+        "name": "IPB kota sukabumi",
+        "category": "Sekolah pendidikan umum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9097138,
+          -6.9139319
+        ]
+      },
+      "properties": {
+        "name": "Pondok Pesantren Al-hidayah & Mts Yasmin Kota Sukabumi",
+        "category": "Sekolah Agama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7924349,
+          -6.8943996
+        ]
+      },
+      "properties": {
+        "name": "SMP NEGERI 1 CIBADAK",
+        "category": "Sekolah Menengah Pertama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9233824,
+          -6.923446
+        ]
+      },
+      "properties": {
+        "name": "SMP Pasundan Sukabumi",
+        "category": "Sekolah Menengah Pertama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7833616,
+          -6.9007077
+        ]
+      },
+      "properties": {
+        "name": "SMA AL BAYAN (Sekolah Unggulan)",
+        "category": "Sekolah Agama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9180769,
+          -6.9530504
+        ]
+      },
+      "properties": {
+        "name": "MTs Amal Islami Fullday And Boarding School Kota Sukabumi",
+        "category": "Sekolah Menengah Pertama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9162383,
+          -6.916567
+        ]
+      },
+      "properties": {
+        "name": "MTS Syamsul'Ulum",
+        "category": "Sekolah pendidikan umum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9045184,
+          -6.9308199
+        ]
+      },
+      "properties": {
+        "name": "SMPN 16",
+        "category": "Sekolah menengah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9447485,
+          -6.9494705
+        ]
+      },
+      "properties": {
+        "name": "Pondok Pesantren Tahfizhul Qur'an Al-Izzah Sukabumi",
+        "category": "Sekolah Menengah Khusus Wanita"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9348085,
+          -6.9220116
+        ]
+      },
+      "properties": {
+        "name": "TK Aisyiyah 2",
+        "category": "Taman Kanak-kanak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9220212,
+          -6.9103582
+        ]
+      },
+      "properties": {
+        "name": "SMP PGRI 2 Kota Sukabumi",
+        "category": "Sekolah Menengah Pertama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.871713,
+          -6.8961415
+        ]
+      },
+      "properties": {
+        "name": "MI Cirenged",
+        "category": "Sekolah Dasar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.958682,
+          -6.919748
+        ]
+      },
+      "properties": {
+        "name": "Sdn Cibeureum Hilir CBM Kota Sukabumi",
+        "category": "Sekolah Dasar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9220198,
+          -6.933128
+        ]
+      },
+      "properties": {
+        "name": "SD Negeri Dwikora Kota Sukabumi",
+        "category": "Sekolah Dasar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9368191,
+          -6.9149141
+        ]
+      },
+      "properties": {
+        "name": "SMP ITECH PASIM AR-RAYYAN",
+        "category": "Sekolah Menengah Pertama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9232272,
+          -6.947516
+        ]
+      },
+      "properties": {
+        "name": "SLB-C Budi Nurani Kota Sukabumi",
+        "category": "Sekolah Pendidikan Khusus"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9352655,
+          -6.9183022
+        ]
+      },
+      "properties": {
+        "name": "SMA Muhammadiyah",
+        "category": "Sekolah menengah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9089564,
+          -6.920388
+        ]
+      },
+      "properties": {
+        "name": "SDN Sukakarya 2 Kota Sukabumi",
+        "category": "Sekolah Dasar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9299579,
+          -6.9277361
+        ]
+      },
+      "properties": {
+        "name": "Pestrn asalafia Sukabumi",
+        "category": "Sekolah Menengah Umum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9356823,
+          -6.918626
+        ]
+      },
+      "properties": {
+        "name": "BPK Penabur Sukabumi",
+        "category": "Sekolah Paroki"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9109519,
+          -6.931873
+        ]
+      },
+      "properties": {
+        "name": "Pondok Pesantren Al-Fauzan Sukabumi",
+        "category": "Sekolah asrama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9130377,
+          -6.9075288
+        ]
+      },
+      "properties": {
+        "name": "SD Islam Tahfidz Qur'an Alfajr",
+        "category": "Sekolah pendidikan umum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8914909,
+          -6.9071433
+        ]
+      },
+      "properties": {
+        "name": "SMPN 1 Cisaat",
+        "category": "Sekolah menengah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9250538,
+          -6.9000562
+        ]
+      },
+      "properties": {
+        "name": "Smpn 1 Kab.sukabumi",
+        "category": "Sekolah Dasar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9313409,
+          -6.920239
+        ]
+      },
+      "properties": {
+        "name": "SMP Mardi Waluya 2",
+        "category": "Sekolah pendidikan umum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9183468,
+          -6.9159819
+        ]
+      },
+      "properties": {
+        "name": "SDN Gunung Puyuh CBM",
+        "category": "Sekolah Dasar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9328404,
+          -6.9143149
+        ]
+      },
+      "properties": {
+        "name": "BPR Sukabumi",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9232912,
+          -6.9217519
+        ]
+      },
+      "properties": {
+        "name": "Bank CCB Indonesia KC Sukabumi",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9268147,
+          -6.92222
+        ]
+      },
+      "properties": {
+        "name": "Bank Mandiri KCP Sukabumi Ahmad Yani",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9225885,
+          -6.9211717
+        ]
+      },
+      "properties": {
+        "name": "Bank Mandiri Sukabumi Sudirman",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9223809,
+          -6.9209038
+        ]
+      },
+      "properties": {
+        "name": "Bank Syariah Indonesia KC Sukabumi Sudirman",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9243436,
+          -6.9215306
+        ]
+      },
+      "properties": {
+        "name": "bank bjb Kantor Cabang Sukabumi",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.92396,
+          -6.921597
+        ]
+      },
+      "properties": {
+        "name": "BCA KCU SUKABUMI",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9260066,
+          -6.9221733
+        ]
+      },
+      "properties": {
+        "name": "BANK BRI KC SUKABUMI",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8939041,
+          -6.9064124
+        ]
+      },
+      "properties": {
+        "name": "Bpr Sukabumi Bank Perkeditan Rakyat",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9199079,
+          -6.9196427
+        ]
+      },
+      "properties": {
+        "name": "Bank BTN KC SUKABUMI",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9424874,
+          -6.9226109
+        ]
+      },
+      "properties": {
+        "name": "Bank Sinarmas - Sukabumi",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.927812,
+          -6.925045
+        ]
+      },
+      "properties": {
+        "name": "BCA KCP Sukabumi Raya",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9290817,
+          -6.9221823
+        ]
+      },
+      "properties": {
+        "name": "BNI KCP CIWANGI",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9226686,
+          -6.9207322
+        ]
+      },
+      "properties": {
+        "name": "Bank Muamalat",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9345737,
+          -6.9205338
+        ]
+      },
+      "properties": {
+        "name": "BNI Sukabumi",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9236524,
+          -6.921473
+        ]
+      },
+      "properties": {
+        "name": "BSI KC Sukabumi A. Yani",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9295894,
+          -6.9202078
+        ]
+      },
+      "properties": {
+        "name": "PermataBank",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9318065,
+          -6.9152347
+        ]
+      },
+      "properties": {
+        "name": "Kantor Bpr Sukabumi",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9333434,
+          -6.9202834
+        ]
+      },
+      "properties": {
+        "name": "BTPN KC Sukabumi",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.93507,
+          -6.922973
+        ]
+      },
+      "properties": {
+        "name": "BCA KCP Kota Paris",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9179338,
+          -6.919279
+        ]
+      },
+      "properties": {
+        "name": "Bank Woori Saudara KC Sukabumi",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7927128,
+          -6.8944156
+        ]
+      },
+      "properties": {
+        "name": "Bank Syariah Indonesia KCP Sukabumi Cibadak",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8821249,
+          -6.9029895
+        ]
+      },
+      "properties": {
+        "name": "BPRS HIK PARAHYANGAN",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8915949,
+          -6.9078793
+        ]
+      },
+      "properties": {
+        "name": "MANDIRI CISAAT",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.926486,
+          -6.9285959
+        ]
+      },
+      "properties": {
+        "name": "BPR Supra Sukabumi",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9348351,
+          -6.91273
+        ]
+      },
+      "properties": {
+        "name": "bank bjb KCP BPN Kota Sukabumi",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9199571,
+          -6.9200614
+        ]
+      },
+      "properties": {
+        "name": "Maybank Sukabumi",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9321771,
+          -6.9226111
+        ]
+      },
+      "properties": {
+        "name": "BPR KOTA SUKABUMI",
+        "category": "Layanan perbankan bisnis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7885463,
+          -6.8939557
+        ]
+      },
+      "properties": {
+        "name": "BCA KCP Cibadak",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8552203,
+          -6.903531
+        ]
+      },
+      "properties": {
+        "name": "PT.BPR DANA MANDIRI BOGOR",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9286264,
+          -6.9251774
+        ]
+      },
+      "properties": {
+        "name": "Bank BRI Unit Sukabumi Selatan",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7857374,
+          -6.8937002
+        ]
+      },
+      "properties": {
+        "name": "BNI CIBADAK",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7826459,
+          -6.8919043
+        ]
+      },
+      "properties": {
+        "name": "Mandiri Unit Mikro Cibadak",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9315886,
+          -6.9208533
+        ]
+      },
+      "properties": {
+        "name": "CIMB NIAGA",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9197862,
+          -6.9196364
+        ]
+      },
+      "properties": {
+        "name": "Bank Mega",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9318428,
+          -6.9181612
+        ]
+      },
+      "properties": {
+        "name": "bank bjb KCP Pemda Kota Sukabumi",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.898323,
+          -6.912174
+        ]
+      },
+      "properties": {
+        "name": "BPR Semesta Megadana. PT",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9325793,
+          -6.9179729
+        ]
+      },
+      "properties": {
+        "name": "Bank BRI Unit Sukabumi Utara",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8933135,
+          -6.9089256
+        ]
+      },
+      "properties": {
+        "name": "BPR Supra KPO",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.926003,
+          -6.919199
+        ]
+      },
+      "properties": {
+        "name": "bank bjb KCP Samsat Wilayah Kota Sukabumi",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.915785,
+          -6.91967
+        ]
+      },
+      "properties": {
+        "name": "Bank BRI Unit Sukabumi Barat",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9226685,
+          -6.9207322
+        ]
+      },
+      "properties": {
+        "name": "Mandiri Taspen Kantor Sukabumi",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7861054,
+          -6.8939837
+        ]
+      },
+      "properties": {
+        "name": "BSN KCP Sukabumi",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.886686,
+          -6.904625
+        ]
+      },
+      "properties": {
+        "name": "Bjb Kcp Cisaat",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.929585,
+          -6.9204512
+        ]
+      },
+      "properties": {
+        "name": "OCBC NISP",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8416571,
+          -6.9010406
+        ]
+      },
+      "properties": {
+        "name": "BPR Sukabumi Cab Parungkuda",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9322115,
+          -6.9226316
+        ]
+      },
+      "properties": {
+        "name": "Bank Sinarmas",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9338027,
+          -6.925354
+        ]
+      },
+      "properties": {
+        "name": "bank bjb KCP Pasar Pelita",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8579763,
+          -6.9036036
+        ]
+      },
+      "properties": {
+        "name": "bank bjb KCP Cikukulu",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7840574,
+          -6.8936943
+        ]
+      },
+      "properties": {
+        "name": "PD. BPR SUKABUMI Cab CIBADAK",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.93581,
+          -6.9211416
+        ]
+      },
+      "properties": {
+        "name": "Bank KB Bukopin",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9284058,
+          -6.9250935
+        ]
+      },
+      "properties": {
+        "name": "Bank Mega",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9295498,
+          -6.9119894
+        ]
+      },
+      "properties": {
+        "name": "PT PNM Cab Sukabumi",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9203048,
+          -6.9202368
+        ]
+      },
+      "properties": {
+        "name": "Bank Bjb Syariah",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9351928,
+          -6.915269
+        ]
+      },
+      "properties": {
+        "name": "bank bjb KCP RSUD Sukabumi",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7858539,
+          -6.8940425
+        ]
+      },
+      "properties": {
+        "name": "BRI Unit Cibadak Kota",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8084289,
+          -6.895257
+        ]
+      },
+      "properties": {
+        "name": "Bank BRI Unit Karang Tengah",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9292482,
+          -6.9123932
+        ]
+      },
+      "properties": {
+        "name": "BPR Sukabumi. PD",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8847261,
+          -6.9031192
+        ]
+      },
+      "properties": {
+        "name": "Bank BRI Unit Cibaraja",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7819441,
+          -6.8916173
+        ]
+      },
+      "properties": {
+        "name": "Kanca BRI Cibadak",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9291454,
+          -6.9123406
+        ]
+      },
+      "properties": {
+        "name": "Bank BRI Unit Bhayangkara",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9364906,
+          -6.9228956
+        ]
+      },
+      "properties": {
+        "name": "Bank BRI Unit Sukabumi Timur",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9321054,
+          -6.9225992
+        ]
+      },
+      "properties": {
+        "name": "PD BPR",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9251172,
+          -6.9254685
+        ]
+      },
+      "properties": {
+        "name": "BPR NBP 11",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8542067,
+          -6.9040126
+        ]
+      },
+      "properties": {
+        "name": "BRI Unit Cisande",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9248321,
+          -6.9219337
+        ]
+      },
+      "properties": {
+        "name": "DANAMON SUKABUMI A YANI",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9273587,
+          -6.9251456
+        ]
+      },
+      "properties": {
+        "name": "Bank Mayapada",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9464874,
+          -6.9216296
+        ]
+      },
+      "properties": {
+        "name": "bank bjb Kantor Cabang Pembantu Ciaul",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9130218,
+          -6.9181648
+        ]
+      },
+      "properties": {
+        "name": "PT Arthaasia Finance Sukabumi",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9342813,
+          -6.9231335
+        ]
+      },
+      "properties": {
+        "name": "KCP Pelabuhan Ratu",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9303913,
+          -6.9242227
+        ]
+      },
+      "properties": {
+        "name": "Panin Bank - Pasar Pelita",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.780517,
+          -6.889427
+        ]
+      },
+      "properties": {
+        "name": "Bank OCBC SUKABUMI - CIBADAK",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7886739,
+          -6.8940164
+        ]
+      },
+      "properties": {
+        "name": "bank bjb KCP Cibadak",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9261926,
+          -6.9283599
+        ]
+      },
+      "properties": {
+        "name": "ULaMM Pelita Sukabumi",
+        "category": "Lembaga Keuangan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9210331,
+          -6.9198514
+        ]
+      },
+      "properties": {
+        "name": "Mandiri Tunas Finance",
+        "category": "Lembaga Keuangan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9304743,
+          -6.9256035
+        ]
+      },
+      "properties": {
+        "name": "PD BPR KOTA SUKABUMI",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8857177,
+          -6.9381739
+        ]
+      },
+      "properties": {
+        "name": "PT. BPD Jawa Barat Dan Banten",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9179719,
+          -6.9193959
+        ]
+      },
+      "properties": {
+        "name": "BCA FINANCE SUKABUMI",
+        "category": "Konsultan Keuangan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8946244,
+          -6.9099058
+        ]
+      },
+      "properties": {
+        "name": "Unit Cisaat",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9277974,
+          -6.9213878
+        ]
+      },
+      "properties": {
+        "name": "BPR Supra Ciwangi",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8000489,
+          -6.8941242
+        ]
+      },
+      "properties": {
+        "name": "bank bjb KCP Samsat Wil. Kab. Sukabumi Cibadak",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9379723,
+          -6.9034904
+        ]
+      },
+      "properties": {
+        "name": "Bank Sukabum",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9248579,
+          -6.9220456
+        ]
+      },
+      "properties": {
+        "name": "ATM DANAMON SUKABUMI AHMAD YANI",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7875859,
+          -6.8942045
+        ]
+      },
+      "properties": {
+        "name": "BPR Supra Cibadak",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9312862,
+          -6.9155898
+        ]
+      },
+      "properties": {
+        "name": "ATM bank bjb Dinas Kota Sukabumi",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9358205,
+          -6.9211116
+        ]
+      },
+      "properties": {
+        "name": "ATM Bank Bukopin KCU Sukabumi",
+        "category": "ATM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7840025,
+          -6.8934992
+        ]
+      },
+      "properties": {
+        "name": "Bank Panin, Cibadak Kota",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9295595,
+          -6.9202069
+        ]
+      },
+      "properties": {
+        "name": "ATM Permatabank",
+        "category": "ATM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.873611,
+          -6.940556
+        ]
+      },
+      "properties": {
+        "name": "Bank Mega",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8804423,
+          -6.9034523
+        ]
+      },
+      "properties": {
+        "name": "KSU Daya Guna Mandiri",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9226711,
+          -6.9207593
+        ]
+      },
+      "properties": {
+        "name": "Syariah Btpn Kantor Fungsional Operasional",
+        "category": "Bank Tabungan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8129793,
+          -6.8958688
+        ]
+      },
+      "properties": {
+        "name": "Kredit Plus",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9216611,
+          -6.9123674
+        ]
+      },
+      "properties": {
+        "name": "K.cengkareng DM",
+        "category": "Bank Trust"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9277738,
+          -6.9213835
+        ]
+      },
+      "properties": {
+        "name": "Western Union",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7835079,
+          -6.8932191
+        ]
+      },
+      "properties": {
+        "name": "Bank BJB Payment Point Samsat Wilayah Kab. Sukabumi Cibadak",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7855636,
+          -6.8936963
+        ]
+      },
+      "properties": {
+        "name": "Bank Muamalat",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9333835,
+          -6.9279193
+        ]
+      },
+      "properties": {
+        "name": "Western Union",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7931189,
+          -6.8947224
+        ]
+      },
+      "properties": {
+        "name": "bank bjb KCP RSUD Sekarwangi Cibadak",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9257599,
+          -6.922059
+        ]
+      },
+      "properties": {
+        "name": "Bank BRI CRM - BRI UNIT SUKABUMI SELATAN",
+        "category": "ATM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9360239,
+          -6.9153674
+        ]
+      },
+      "properties": {
+        "name": "Master Partner 3",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9375592,
+          -6.9228288
+        ]
+      },
+      "properties": {
+        "name": "SWAMITRA KOPERASI SUKABUMI STUDY CENTER",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7907171,
+          -6.8948597
+        ]
+      },
+      "properties": {
+        "name": "PNM Mekaar Cabang Parung Kuda",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9285617,
+          -6.9219273
+        ]
+      },
+      "properties": {
+        "name": "Bank BJB ATM",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9001077,
+          -6.928753
+        ]
+      },
+      "properties": {
+        "name": "Agen BTPN WOW",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8901194,
+          -6.9020663
+        ]
+      },
+      "properties": {
+        "name": "ATM Muamalat Indomaret Cibatu Sukabumi",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7862508,
+          -6.8937287
+        ]
+      },
+      "properties": {
+        "name": "Bank Woori Saudara KCP Cibadak",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9341188,
+          -6.9145365
+        ]
+      },
+      "properties": {
+        "name": "BPR DANAPOS",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.892732,
+          -6.9356422
+        ]
+      },
+      "properties": {
+        "name": "BPR PKU",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.930913,
+          -6.9169279
+        ]
+      },
+      "properties": {
+        "name": "BPR DANAPOS",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7897279,
+          -6.8941408
+        ]
+      },
+      "properties": {
+        "name": "PT Bank Bukopin Cibadak",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9387989,
+          -6.8957158
+        ]
+      },
+      "properties": {
+        "name": "Western Union",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9071246,
+          -6.9153752
+        ]
+      },
+      "properties": {
+        "name": "Finansia Multi Finance. PT - Sukabumi",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9361309,
+          -6.9156876
+        ]
+      },
+      "properties": {
+        "name": "ATM bank bjb Kantor Kas RSUD Sekarwangi (Cibadak)",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8244484,
+          -6.9001799
+        ]
+      },
+      "properties": {
+        "name": "Bank OCBC NISP - Cosmo Technology",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9326999,
+          -6.9295371
+        ]
+      },
+      "properties": {
+        "name": "Unit Layanan Modal Mikro Sukabumi Pasar Pelita",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.925076,
+          -6.9220487
+        ]
+      },
+      "properties": {
+        "name": "Western Union",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9260066,
+          -6.9221733
+        ]
+      },
+      "properties": {
+        "name": "Bank BRI CRM - KC SUKABUMI",
+        "category": "ATM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9141616,
+          -6.9281076
+        ]
+      },
+      "properties": {
+        "name": "Tunas Baru Group",
+        "category": "Pengembangan Bisnis Perdagangan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9136372,
+          -6.9050091
+        ]
+      },
+      "properties": {
+        "name": "Agen PRASETYO (\"WoW\")",
+        "category": "Bank Tabungan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9210327,
+          -6.9115465
+        ]
+      },
+      "properties": {
+        "name": "BPR Supra Bhayangkara",
+        "category": "Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9296651,
+          -6.9171048
+        ]
+      },
+      "properties": {
+        "name": "RiniMart",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9218695,
+          -6.9104995
+        ]
+      },
+      "properties": {
+        "name": "Toko Asri Pusat Oleh-oleh Sukabumi",
+        "category": "Toko Swalayan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9392972,
+          -6.9227278
+        ]
+      },
+      "properties": {
+        "name": "Idolmart Ciaul Sukabumi",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8958441,
+          -6.9111305
+        ]
+      },
+      "properties": {
+        "name": "YOMART CISAAT3",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9003275,
+          -6.9301975
+        ]
+      },
+      "properties": {
+        "name": "indomaret alt jalur selatan perempatan jln rambay",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9283485,
+          -6.9200478
+        ]
+      },
+      "properties": {
+        "name": "Toserba Yogya Sukabumi",
+        "category": "Toko Swalayan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7936818,
+          -6.8943888
+        ]
+      },
+      "properties": {
+        "name": "I Mart",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9340552,
+          -6.9237255
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Otista Sukabumi",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9348566,
+          -6.9210805
+        ]
+      },
+      "properties": {
+        "name": "Toserba Selamat",
+        "category": "Pusat Perbelanjaan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9243126,
+          -6.9218625
+        ]
+      },
+      "properties": {
+        "name": "Alfamart",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.883228,
+          -6.9026845
+        ]
+      },
+      "properties": {
+        "name": "Yomart Cisaat 1 Minimarket",
+        "category": "Toko Swalayan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9036074,
+          -6.8809968
+        ]
+      },
+      "properties": {
+        "name": "Mini Market Al-Barakah",
+        "category": "Toko bahan makanan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8989956,
+          -6.9131678
+        ]
+      },
+      "properties": {
+        "name": "YOMART RAMBAY",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8952185,
+          -6.9265856
+        ]
+      },
+      "properties": {
+        "name": "Alfamart SPBU Lingkar",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9374387,
+          -6.9362685
+        ]
+      },
+      "properties": {
+        "name": "Alfamart",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9386475,
+          -6.8950743
+        ]
+      },
+      "properties": {
+        "name": "Alfamart Salabintana2",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8945856,
+          -6.9101608
+        ]
+      },
+      "properties": {
+        "name": "212 MART",
+        "category": "Toko bahan makanan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9163066,
+          -6.9191152
+        ]
+      },
+      "properties": {
+        "name": "Alfamidi Jendral sudirman",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9018576,
+          -6.9118712
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Cigunung Sukabumi",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9236842,
+          -6.910586
+        ]
+      },
+      "properties": {
+        "name": "Alfamart",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8870069,
+          -6.910955
+        ]
+      },
+      "properties": {
+        "name": "Prima Center 10 Cisaat",
+        "category": "Toko Swalayan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9268853,
+          -6.9204621
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Perintis Kemerdekaan",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9302847,
+          -6.9129631
+        ]
+      },
+      "properties": {
+        "name": "Toko Bobby",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9232601,
+          -6.9213085
+        ]
+      },
+      "properties": {
+        "name": "Alfamart A. Yani 2 Sukabumi",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9346519,
+          -6.932453
+        ]
+      },
+      "properties": {
+        "name": "Toko Insani",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7765954,
+          -6.8769994
+        ]
+      },
+      "properties": {
+        "name": "Alfamart Simpang Cikidang",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9161994,
+          -6.8856961
+        ]
+      },
+      "properties": {
+        "name": "Darussyifa Mart",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8999901,
+          -6.9307797
+        ]
+      },
+      "properties": {
+        "name": "Alfamart Gunungguruh",
+        "category": "Toko bahan makanan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9053153,
+          -6.9260777
+        ]
+      },
+      "properties": {
+        "name": "Mini Gold Sukabumi_distro buLia",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9320907,
+          -6.9327346
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Didi Sukardi",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9323061,
+          -6.9226146
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Ahmad Yani Sukabumi",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9433862,
+          -6.9247766
+        ]
+      },
+      "properties": {
+        "name": "Toko Rifqi",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9354831,
+          -6.923235
+        ]
+      },
+      "properties": {
+        "name": "Alfamart",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9246859,
+          -6.9357157
+        ]
+      },
+      "properties": {
+        "name": "Alfamart cipoho",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7860546,
+          -6.893958
+        ]
+      },
+      "properties": {
+        "name": "NICESO CIBADAK",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8245356,
+          -6.9001124
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Segog",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8767225,
+          -6.9052521
+        ]
+      },
+      "properties": {
+        "name": "Alfamart Cibolang",
+        "category": "Toko bahan makanan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9336051,
+          -6.9127716
+        ]
+      },
+      "properties": {
+        "name": "Alfamart",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8867981,
+          -6.9048602
+        ]
+      },
+      "properties": {
+        "name": "Alfamart Cibatu",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7811098,
+          -6.8908128
+        ]
+      },
+      "properties": {
+        "name": "Berkah Baru Toserba Cibadak",
+        "category": "Toko bahan makanan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9258436,
+          -6.9254929
+        ]
+      },
+      "properties": {
+        "name": "Alfamart Ruko Danalaga",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9088561,
+          -6.9392452
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Jalur selatan",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9357843,
+          -6.9148533
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Raden Samsudin",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.929432,
+          -6.930958
+        ]
+      },
+      "properties": {
+        "name": "Alfamart",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9276491,
+          -6.8989324
+        ]
+      },
+      "properties": {
+        "name": "SP Mart",
+        "category": "Toko Swalayan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9373361,
+          -6.892609
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Cikembang-Sukabumi",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9024172,
+          -6.9121373
+        ]
+      },
+      "properties": {
+        "name": "Alfamart Cigunung",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9179436,
+          -6.915931
+        ]
+      },
+      "properties": {
+        "name": "Alfamart gunungpuyuh bhayangkara",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.924401,
+          -6.896586
+        ]
+      },
+      "properties": {
+        "name": "Alfamart parungseah gede",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.859864,
+          -6.9038873
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Cikukulu Raya",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9291792,
+          -6.9123407
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Sriwedari",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.887306,
+          -6.9048604
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Cibatu Sukabumi",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9296534,
+          -6.9038869
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Pesona Pangrango",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9357872,
+          -6.9148176
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Prana Estate",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8988885,
+          -6.9127246
+        ]
+      },
+      "properties": {
+        "name": "ATM BCA & ATM BRI",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7972105,
+          -6.8770495
+        ]
+      },
+      "properties": {
+        "name": "Alfamart Nagrak Cisaat",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7766381,
+          -6.8772487
+        ]
+      },
+      "properties": {
+        "name": "Indomaret",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9246273,
+          -6.8992045
+        ]
+      },
+      "properties": {
+        "name": "INDOMARET PARUNGSEAH",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9232076,
+          -6.9235109
+        ]
+      },
+      "properties": {
+        "name": "Kios Pink",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8918081,
+          -6.9064637
+        ]
+      },
+      "properties": {
+        "name": "Toserba Berkah Cisaat",
+        "category": "Toko bahan makanan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8334901,
+          -6.9013473
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Salakopi",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8678301,
+          -6.9052015
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Cibolang Kaler",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.933043,
+          -6.9265719
+        ]
+      },
+      "properties": {
+        "name": "Bright",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9095663,
+          -6.9173239
+        ]
+      },
+      "properties": {
+        "name": "Warung Adang",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9309696,
+          -6.9203471
+        ]
+      },
+      "properties": {
+        "name": "SEJAHTERA MINIMART & ATK",
+        "category": "Toko"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.92589,
+          -6.92974
+        ]
+      },
+      "properties": {
+        "name": "Alfamart",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9265404,
+          -6.9223022
+        ]
+      },
+      "properties": {
+        "name": "Point Coffee kantor pos sukabumi",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8146129,
+          -6.8960394
+        ]
+      },
+      "properties": {
+        "name": "IDOLMART KARANG TENGAH SUKABUMI",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.931729,
+          -6.9342931
+        ]
+      },
+      "properties": {
+        "name": "S-Mart SPBU Otista",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9279944,
+          -6.9203503
+        ]
+      },
+      "properties": {
+        "name": "Toko Acong",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9187554,
+          -6.9198276
+        ]
+      },
+      "properties": {
+        "name": "Wr. Sujana",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7801301,
+          -6.8884783
+        ]
+      },
+      "properties": {
+        "name": "Indomaret suryakencana sukabumi",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9395928,
+          -6.9227678
+        ]
+      },
+      "properties": {
+        "name": "Alfamart",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8991668,
+          -6.9124794
+        ]
+      },
+      "properties": {
+        "name": "Alfamart Raya Rambay",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9582859,
+          -6.9227204
+        ]
+      },
+      "properties": {
+        "name": "Toko",
+        "category": "Toko Swalayan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7958128,
+          -6.8946383
+        ]
+      },
+      "properties": {
+        "name": "Alfamidi Cibadak Sukabumi",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9291967,
+          -6.9113807
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Royal Kabandungan",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9212137,
+          -6.9265311
+        ]
+      },
+      "properties": {
+        "name": "Alfamart Nyomplong",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8791031,
+          -6.9125343
+        ]
+      },
+      "properties": {
+        "name": "Alfamart Jalur Cibatu",
+        "category": "Toko bahan makanan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8921283,
+          -6.9057203
+        ]
+      },
+      "properties": {
+        "name": "Yomart Cisaat 2",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.80459,
+          -6.8700658
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Nagrak Sukabumi (TXXJ)",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8832341,
+          -6.9027418
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Cagak",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9327639,
+          -6.929533
+        ]
+      },
+      "properties": {
+        "name": "Alfamart",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9452581,
+          -6.9215485
+        ]
+      },
+      "properties": {
+        "name": "INDOMARET RA. KOSASIH SUKABUMI (TR13)",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7821376,
+          -6.891809
+        ]
+      },
+      "properties": {
+        "name": "Alfamart Raya Cibadak",
+        "category": "Toko bahan makanan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8461444,
+          -6.90161
+        ]
+      },
+      "properties": {
+        "name": "Alfamart Kadupugur",
+        "category": "Toko bahan makanan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9181592,
+          -6.9041819
+        ]
+      },
+      "properties": {
+        "name": "Indomaret kramat",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9292051,
+          -6.9256251
+        ]
+      },
+      "properties": {
+        "name": "Ramayana departemen store",
+        "category": "Toserba"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.895139,
+          -6.9258264
+        ]
+      },
+      "properties": {
+        "name": "Alfamart",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9443103,
+          -6.9150706
+        ]
+      },
+      "properties": {
+        "name": "ALFAMART CIAUL SUKABUMI",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9215905,
+          -6.9242748
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Nyomplong",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.935523,
+          -6.9211854
+        ]
+      },
+      "properties": {
+        "name": "Alfamart",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8997934,
+          -6.8891846
+        ]
+      },
+      "properties": {
+        "name": "Alfamart CIJAMBU",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9471247,
+          -6.9316974
+        ]
+      },
+      "properties": {
+        "name": "Alfamart CIANDAM SUKABUMI",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7748602,
+          -6.9335476
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Sukamulya Cikembar",
+        "category": "Toko bahan makanan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7805656,
+          -6.8894522
+        ]
+      },
+      "properties": {
+        "name": "Indomaret cibadak sukabumi",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9439883,
+          -6.9233203
+        ]
+      },
+      "properties": {
+        "name": "Suhardi Grosir",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9427063,
+          -6.9224843
+        ]
+      },
+      "properties": {
+        "name": "Toko Terus Terang",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9165465,
+          -6.917225
+        ]
+      },
+      "properties": {
+        "name": "INDOMARET BHAYANGKARA",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8328039,
+          -6.9015379
+        ]
+      },
+      "properties": {
+        "name": "Sumber Barokah",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9419311,
+          -6.922189
+        ]
+      },
+      "properties": {
+        "name": "Indomaret SPBU Ciaul",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9288918,
+          -6.9121961
+        ]
+      },
+      "properties": {
+        "name": "Alfamart Bhayangkara",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7835329,
+          -6.8821977
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Alternatif Nagrak (TGIL)",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.92219,
+          -6.9070075
+        ]
+      },
+      "properties": {
+        "name": "Toko Abbas Grosir & Eceran",
+        "category": "Toko bahan makanan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7856807,
+          -6.8936638
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Sekarwangi Cibadak TM40",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9303487,
+          -6.9247163
+        ]
+      },
+      "properties": {
+        "name": "Ramdan Billa Jaya",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9349447,
+          -6.9208549
+        ]
+      },
+      "properties": {
+        "name": "JAJANAN SUBUH TOSERBA SELAMAT SUKABUMI",
+        "category": "Sarapan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9235238,
+          -6.9199106
+        ]
+      },
+      "properties": {
+        "name": "Toko You",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8706558,
+          -6.8959074
+        ]
+      },
+      "properties": {
+        "name": "HIKMART - CISAAT",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8205149,
+          -6.8971294
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Karang Tengah 2",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9100921,
+          -6.8724081
+        ]
+      },
+      "properties": {
+        "name": "Alfamart Kadudampit",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8143773,
+          -6.8959837
+        ]
+      },
+      "properties": {
+        "name": "Alfor Snack ² Serba 2000",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9251181,
+          -6.9430793
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Cikondang Sukabumi",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8918694,
+          -6.9060962
+        ]
+      },
+      "properties": {
+        "name": "Alfamart Cisaat 3/f",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8796562,
+          -6.9255453
+        ]
+      },
+      "properties": {
+        "name": "Alfamart Mangkalaya",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.94572,
+          -6.92156
+        ]
+      },
+      "properties": {
+        "name": "Sumber Alfaria Trijaya. PT (Alfamart)",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8996731,
+          -6.9365436
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Cikujang",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.877936,
+          -6.9283855
+        ]
+      },
+      "properties": {
+        "name": "Indomaret Mangkalaya Cisaat",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8205238,
+          -6.8974778
+        ]
+      },
+      "properties": {
+        "name": "Alfamart Karangtengah 3",
+        "category": "Minimarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9311877,
+          -6.9311939
+        ]
+      },
+      "properties": {
+        "name": "Imelda Jaya",
+        "category": "Minimarket"
+      }
+    }
+  ]
+}

@@ -14,9 +14,11 @@ import {
     TouchableOpacity,
     View,
 } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 export default function LoginScreen() {
     const router = useRouter();
+    const insets = useSafeAreaInsets();
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [showPassword, setShowPassword] = useState(false);
@@ -53,104 +55,145 @@ export default function LoginScreen() {
             <ScrollView
                 contentContainerStyle={{ flexGrow: 1 }}
                 keyboardShouldPersistTaps="handled"
+                showsVerticalScrollIndicator={false}
             >
-                <View className="flex-1 px-6 pt-16">
-                    {/* Back Button */}
-                    <TouchableOpacity
-                        onPress={() => router.back()}
-                        className="mb-8 h-10 w-10 items-center justify-center rounded-full bg-gray-100"
+                {/* Header Image Section */}
+                <View
+                    className="h-72 bg-primary/10 items-center justify-end pb-6"
+                    style={{
+                        borderBottomLeftRadius: 40,
+                        borderBottomRightRadius: 40,
+                    }}
+                >
+                    {/* Decorative Pattern */}
+                    <View
+                        className="absolute inset-0 overflow-hidden"
+                        style={{
+                            borderBottomLeftRadius: 40,
+                            borderBottomRightRadius: 40,
+                        }}
                     >
-                        <Monicon
-                            name="material-symbols:arrow-back-rounded"
-                            size={24}
-                            color="#374151"
-                        />
-                    </TouchableOpacity>
+                        <View className="absolute inset-0 opacity-30">
+                            {/* Grid pattern effect */}
+                            {[...Array(8)].map((_, i) => (
+                                <View
+                                    key={i}
+                                    className="flex-row justify-around mt-6"
+                                >
+                                    {[...Array(6)].map((_, j) => (
+                                        <View
+                                            key={j}
+                                            className="w-2 h-2 rounded-full bg-primary"
+                                        />
+                                    ))}
+                                </View>
+                            ))}
+                        </View>
+                    </View>
 
-                    {/* Header */}
-                    <View className="mb-8">
-                        <Text weight="bold" className="text-3xl text-gray-900">
-                            Selamat Datang! 👋
+                    {/* Logo Badge */}
+                    <View className="bg-white/90 flex-row items-center px-4 py-2 rounded-full shadow-sm">
+                        <Monicon
+                            name="material-symbols:location-home-rounded"
+                            size={20}
+                            color="#1b988d"
+                        />
+                        <Text
+                            weight="bold"
+                            className="ml-2 text-xs uppercase tracking-wider text-primary"
+                        >
+                            MauNgekos
                         </Text>
-                        <Text className="mt-2 text-gray-500">
-                            Masuk ke akun MauNgekos kamu
+                    </View>
+                </View>
+
+                {/* Main Content */}
+                <View className="flex-1 px-6 -mt-4">
+                    {/* Headline */}
+                    <View className="items-center mt-10 mb-8">
+                        <Text
+                            weight="extrabold"
+                            className="text-2xl text-gray-900 text-center"
+                        >
+                            Selamat Datang
+                        </Text>
+                        <Text className="mt-2 text-gray-500 text-center">
+                            Masuk dulu terus lanjut cari kos-kosan di sekitarmu!
                         </Text>
                     </View>
 
                     {/* Form */}
-                    <View className="space-y-4">
-                        {/* Email Input */}
-                        <View>
+                    <View>
+                        {/* Email Field */}
+                        <View className="mb-5">
                             <Text
-                                weight="medium"
-                                className="mb-2 text-sm text-gray-700"
+                                weight="bold"
+                                className="text-xs uppercase tracking-wider text-gray-500 mb-2 ml-1"
                             >
-                                Email
+                                Email Address
                             </Text>
-                            <View className="flex-row items-center rounded-xl border border-gray-200 bg-gray-50 px-4">
-                                <Monicon
-                                    name="material-symbols:mail-rounded"
-                                    size={20}
-                                    color="#6B7280"
-                                />
+                            <View className="flex-row items-center rounded-full bg-gray-50 border border-transparent">
                                 <TextInput
                                     value={email}
                                     onChangeText={setEmail}
                                     placeholder="nama@email.com"
                                     keyboardType="email-address"
                                     autoCapitalize="none"
-                                    className="ml-3 flex-1 py-4 text-gray-900"
-                                    placeholderTextColor="#9CA3AF"
+                                    className="flex-1 h-12 px-4 text-gray-900"
+                                    placeholderTextColor="#9aacac"
                                     style={{ fontFamily: "Manrope_400Regular" }}
                                 />
+                                <View className="pr-4">
+                                    <Monicon
+                                        name="material-symbols:mail-rounded"
+                                        size={22}
+                                        color="#658683"
+                                    />
+                                </View>
                             </View>
                         </View>
 
-                        {/* Password Input */}
-                        <View className="mt-4">
+                        {/* Password Field */}
+                        <View className="mb-4">
                             <Text
-                                weight="medium"
-                                className="mb-2 text-sm text-gray-700"
+                                weight="bold"
+                                className="text-xs uppercase tracking-wider text-gray-500 mb-2 ml-1"
                             >
                                 Password
                             </Text>
-                            <View className="flex-row items-center rounded-xl border border-gray-200 bg-gray-50 px-4">
-                                <Monicon
-                                    name="material-symbols:lock-rounded"
-                                    size={20}
-                                    color="#6B7280"
-                                />
+                            <View className="flex-row items-center rounded-full bg-gray-50 border border-transparent">
                                 <TextInput
                                     value={password}
                                     onChangeText={setPassword}
-                                    placeholder="********"
+                                    placeholder="••••••••"
                                     secureTextEntry={!showPassword}
-                                    className="ml-3 flex-1 py-4 text-gray-900"
-                                    placeholderTextColor="#9CA3AF"
+                                    className="flex-1 h-12 px-4 text-gray-900"
+                                    placeholderTextColor="#9aacac"
                                     style={{ fontFamily: "Manrope_400Regular" }}
                                 />
                                 <TouchableOpacity
                                     onPress={() =>
                                         setShowPassword(!showPassword)
                                     }
+                                    className="pr-4"
                                 >
                                     <Monicon
                                         name={
                                             showPassword
-                                                ? "material-symbols:visibility-off-rounded"
-                                                : "material-symbols:visibility-rounded"
+                                                ? "material-symbols:visibility-rounded"
+                                                : "material-symbols:visibility-off-rounded"
                                         }
-                                        size={20}
-                                        color="#6B7280"
+                                        size={22}
+                                        color="#658683"
                                     />
                                 </TouchableOpacity>
                             </View>
                         </View>
 
                         {/* Forgot Password */}
-                        <TouchableOpacity className="mt-2 self-end">
+                        <TouchableOpacity className="self-end mb-4">
                             <Text
-                                weight="medium"
+                                weight="semibold"
                                 className="text-sm text-primary"
                             >
                                 Lupa Password?
@@ -161,53 +204,73 @@ export default function LoginScreen() {
                         <TouchableOpacity
                             onPress={handleLogin}
                             disabled={isLoading}
-                            className="mt-6 items-center rounded-xl bg-primary py-4"
+                            className="flex-row items-center justify-center rounded-full bg-primary h-14 mt-2"
+                            style={{
+                                shadowColor: "#1b988d",
+                                shadowOffset: { width: 0, height: 4 },
+                                shadowOpacity: 0.3,
+                                shadowRadius: 8,
+                                elevation: 6,
+                            }}
                         >
                             {isLoading ? (
                                 <ActivityIndicator color="#ffffff" />
                             ) : (
-                                <Text
-                                    weight="semibold"
-                                    className="text-lg text-white"
-                                >
-                                    Masuk
-                                </Text>
+                                <>
+                                    <Text
+                                        weight="bold"
+                                        className="text-white text-base"
+                                    >
+                                        Masuk Sekarang
+                                    </Text>
+                                    <View className="ml-2">
+                                        <Monicon
+                                            name="material-symbols:arrow-forward-rounded"
+                                            size={20}
+                                            color="#ffffff"
+                                        />
+                                    </View>
+                                </>
                             )}
-                        </TouchableOpacity>
-
-                        {/* Divider */}
-                        <View className="my-6 flex-row items-center">
-                            <View className="h-px flex-1 bg-gray-200" />
-                            <Text className="mx-4 text-gray-400">atau</Text>
-                            <View className="h-px flex-1 bg-gray-200" />
-                        </View>
-
-                        {/* Google Login */}
-                        <TouchableOpacity className="flex-row items-center justify-center rounded-xl border border-gray-200 py-4">
-                            <Monicon
-                                name="mdi:google"
-                                size={24}
-                                color="#EA4335"
-                            />
-                            <Text
-                                weight="medium"
-                                className="ml-3 text-gray-700"
-                            >
-                                Lanjutkan dengan Google
-                            </Text>
                         </TouchableOpacity>
                     </View>
 
+                    {/* Divider */}
+                    <View className="flex-row items-center my-8">
+                        <View className="flex-1 h-px bg-gray-200" />
+                        <Text className="mx-4 text-xs text-gray-400">
+                            Atau kamu juga bisa masuk dengan
+                        </Text>
+                        <View className="flex-1 h-px bg-gray-200" />
+                    </View>
+
+                    {/* Google Login */}
+                    <TouchableOpacity className="flex-row items-center justify-center rounded-full border border-gray-200 bg-white h-14 shadow-sm">
+                        <Monicon name="logos:google-icon" size={20} />
+                        <Text
+                            weight="bold"
+                            className="ml-3 text-base text-gray-900"
+                        >
+                            Google
+                        </Text>
+                    </TouchableOpacity>
+
                     {/* Register Link */}
-                    <View className="mt-auto flex-row justify-center pb-8 pt-6">
-                        <Text className="text-gray-500">
-                            Belum punya akun?{" "}
+                    <View
+                        className="flex-row justify-center pt-6"
+                        style={{ paddingBottom: Math.max(insets.bottom, 24) }}
+                    >
+                        <Text className="text-sm text-gray-500">
+                            Belum punya akun?
                         </Text>
                         <TouchableOpacity
                             onPress={() => router.push("/(auth)/register")}
                         >
-                            <Text weight="semibold" className="text-primary">
-                                Daftar
+                            <Text
+                                weight="bold"
+                                className="text-sm text-primary ml-1"
+                            >
+                                Gas Daftar
                             </Text>
                         </TouchableOpacity>
                     </View>

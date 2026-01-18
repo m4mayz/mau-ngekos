@@ -48,7 +48,7 @@ export default function LeafletMap({
             marker: ${JSON.stringify(marker)}
           }));
         });
-    `
+    `,
             )
             .join("\n");
     }, [markers]);
@@ -64,7 +64,7 @@ export default function LeafletMap({
         * { margin: 0; padding: 0; }
         html, body, #map { height: 100%; width: 100%; }
         .custom-marker {
-          background: #6366F1;
+          background: #1b988d;
           color: white;
           padding: 4px 8px;
           border-radius: 8px;
@@ -78,7 +78,7 @@ export default function LeafletMap({
           height: 0;
           border-left: 6px solid transparent;
           border-right: 6px solid transparent;
-          border-top: 8px solid #6366F1;
+          border-top: 8px solid #1b988d;
           margin: 0 auto;
         }
       </style>
@@ -87,19 +87,22 @@ export default function LeafletMap({
       <div id="map"></div>
       <script>
         var map = L.map('map', {
-          zoomControl: ${interactive},
+          zoomControl: false,
           dragging: ${interactive},
           touchZoom: ${interactive},
           scrollWheelZoom: ${interactive},
           doubleClickZoom: ${interactive},
         }).setView([${latitude}, ${longitude}], ${zoom});
         
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          attribution: '© OpenStreetMap'
+        // CartoCDN Light - clean map style
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+          attribution: '© CartoDB © OSM',
+          subdomains: 'abcd',
+          maxZoom: 19
         }).addTo(map);
 
         ${generateMarkerJS()}
-
+        
         ${
             showUserLocation
                 ? `
@@ -117,7 +120,7 @@ export default function LeafletMap({
         `
                 : ""
         }
-
+        
         ${
             onMapPress
                 ? `
@@ -147,13 +150,6 @@ export default function LeafletMap({
         } catch (e) {
             console.error("Error parsing WebView message:", e);
         }
-    };
-
-    const updateCenter = (lat: number, lng: number) => {
-        webViewRef.current?.injectJavaScript(`
-      map.setView([${lat}, ${lng}], map.getZoom());
-      true;
-    `);
     };
 
     return (

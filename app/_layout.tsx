@@ -13,6 +13,7 @@ import * as SplashScreen from "expo-splash-screen";
 import { StatusBar } from "expo-status-bar";
 import { useEffect } from "react";
 import { ActivityIndicator, View } from "react-native";
+import { SafeAreaProvider } from "react-native-safe-area-context";
 import "../global.css";
 
 // Keep the splash screen visible while we fetch resources
@@ -43,13 +44,15 @@ export default function RootLayout() {
     }
 
     return (
-        <AuthProvider>
-            <StatusBar style="auto" />
-            <Stack
-                screenOptions={{
-                    headerShown: false,
-                }}
-            />
-        </AuthProvider>
+        <SafeAreaProvider>
+            <AuthProvider>
+                <StatusBar style="auto" />
+                <Stack
+                    screenOptions={{
+                        headerShown: false,
+                    }}
+                />
+            </AuthProvider>
+        </SafeAreaProvider>
     );
 }

@@ -1,6 +1,5 @@
 import { auth } from "@/lib/firebase";
-import { supabase } from "@/lib/supabase";
-import { User, UserRole } from "@/types/database";
+import { FirestoreUser, getUser } from "@/lib/firestore";
 import { User as FirebaseUser, onAuthStateChanged } from "firebase/auth";
 import React, {
     createContext,
@@ -10,9 +9,11 @@ import React, {
     useState,
 } from "react";
 
+type UserRole = "seeker" | "owner" | "admin";
+
 interface AuthContextType {
     firebaseUser: FirebaseUser | null;
-    user: User | null;
+    user: FirestoreUser | null;
     isLoading: boolean;
     isAuthenticated: boolean;
     role: UserRole | null;
@@ -23,23 +24,14 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 export function AuthProvider({ children }: { children: ReactNode }) {
     const [firebaseUser, setFirebaseUser] = useState<FirebaseUser | null>(null);
-    const [user, setUser] = useState<User | null>(null);
+    const [user, setUser] = useState<FirestoreUser | null>(null);
     const [isLoading, setIsLoading] = useState(true);
 
-    // Fetch user data from Supabase
-    const fetchUserData = async (firebaseUid: string) => {
+    // Fetch user data from Firestore
+    const fetchUserData = async (uid: string) => {
         try {
-            const { data, error } = await supabase
-                .from("users")
-                .select("*")
-                .eq("firebase_uid", firebaseUid)
-                .single();
-
-            if (error) {
-                console.error("Error fetching user data:", error);
-                return null;
-            }
-            return data as User;
+            const userData = await getUser(uid);
+            return userData;
         } catch (error) {
             console.error("Error fetching user data:", error);
             return null;
@@ -75,7 +67,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         firebaseUser,
         user,
         isLoading,
-        isAuthenticated: !!firebaseUser && !!user,
+        isAuthenticated: !!firebaseUser,
         role: user?.role || null,
         refreshUser,
     };

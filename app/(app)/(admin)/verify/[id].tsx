@@ -1,7 +1,14 @@
 import LeafletMap from "@/components/map/LeafletMap";
 import Text from "@/components/ui/Text";
-import { supabase } from "@/lib/supabase";
-import { BoardingHouse, HouseImage, User } from "@/types/database";
+import {
+    FirestoreBoardingHouse,
+    FirestoreHouseImage,
+    FirestoreUser,
+    getBoardingHouse,
+    getHouseImages,
+    getUser,
+    updateBoardingHouse,
+} from "@/lib/firestore";
 import { Monicon } from "@monicon/native";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { useCallback, useEffect, useState } from "react";
@@ -14,44 +21,38 @@ import {
     TouchableOpacity,
     View,
 } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 export default function VerifyKosScreen() {
     const { id } = useLocalSearchParams<{ id: string }>();
     const router = useRouter();
-    const [house, setHouse] = useState<BoardingHouse | null>(null);
-    const [owner, setOwner] = useState<User | null>(null);
-    const [images, setImages] = useState<HouseImage[]>([]);
+    const insets = useSafeAreaInsets();
+    const [house, setHouse] = useState<FirestoreBoardingHouse | null>(null);
+    const [owner, setOwner] = useState<FirestoreUser | null>(null);
+    const [images, setImages] = useState<FirestoreHouseImage[]>([]);
     const [isLoading, setIsLoading] = useState(true);
     const [isUpdating, setIsUpdating] = useState(false);
 
     const fetchData = useCallback(async () => {
         if (!id) return;
 
-        const { data: houseData } = await supabase
-            .from("boarding_houses")
-            .select("*")
-            .eq("id", id)
-            .single();
+        try {
+            const houseData = await getBoardingHouse(id);
 
-        if (houseData) {
-            setHouse(houseData);
+            if (houseData) {
+                setHouse(houseData);
 
-            const { data: ownerData } = await supabase
-                .from("users")
-                .select("*")
-                .eq("id", houseData.owner_id)
-                .single();
+                const ownerData = await getUser(houseData.owner_id);
+                if (ownerData) setOwner(ownerData);
+            }
 
-            if (ownerData) setOwner(ownerData);
+            const imageData = await getHouseImages(id);
+            setImages(imageData);
+        } catch (error) {
+            console.error("Error fetching data:", error);
+        } finally {
+            setIsLoading(false);
         }
-
-        const { data: imageData } = await supabase
-            .from("house_images")
-            .select("*")
-            .eq("house_id", id);
-
-        if (imageData) setImages(imageData);
-        setIsLoading(false);
     }, [id]);
 
     useEffect(() => {
@@ -76,22 +77,21 @@ export default function VerifyKosScreen() {
                     text: "Setujui",
                     onPress: async () => {
                         setIsUpdating(true);
-                        const { error } = await supabase
-                            .from("boarding_houses")
-                            .update({ status: "approved" })
-                            .eq("id", id);
-
-                        if (!error) {
+                        try {
+                            await updateBoardingHouse(id!, {
+                                status: "approved",
+                            });
                             Alert.alert("Sukses", "Kos berhasil disetujui", [
                                 { text: "OK", onPress: () => router.back() },
                             ]);
-                        } else {
+                        } catch (error) {
                             Alert.alert("Error", "Gagal menyetujui kos");
+                        } finally {
+                            setIsUpdating(false);
                         }
-                        setIsUpdating(false);
                     },
                 },
-            ]
+            ],
         );
     };
 
@@ -103,19 +103,16 @@ export default function VerifyKosScreen() {
                 style: "destructive",
                 onPress: async () => {
                     setIsUpdating(true);
-                    const { error } = await supabase
-                        .from("boarding_houses")
-                        .update({ status: "rejected" })
-                        .eq("id", id);
-
-                    if (!error) {
+                    try {
+                        await updateBoardingHouse(id!, { status: "rejected" });
                         Alert.alert("Sukses", "Kos berhasil ditolak", [
                             { text: "OK", onPress: () => router.back() },
                         ]);
-                    } else {
+                    } catch (error) {
                         Alert.alert("Error", "Gagal menolak kos");
+                    } finally {
+                        setIsUpdating(false);
                     }
-                    setIsUpdating(false);
                 },
             },
         ]);
@@ -128,7 +125,7 @@ export default function VerifyKosScreen() {
     if (isLoading) {
         return (
             <View className="flex-1 items-center justify-center bg-white">
-                <ActivityIndicator size="large" color="#6366F1" />
+                <ActivityIndicator size="large" color="#1b988d" />
             </View>
         );
     }
@@ -166,7 +163,10 @@ export default function VerifyKosScreen() {
 
     return (
         <View className="flex-1 bg-white">
-            <View className="flex-row items-center border-b border-gray-100 px-4 pb-4 pt-14">
+            <View
+                className="flex-row items-center border-b border-gray-100 px-4 pb-4"
+                style={{ paddingTop: insets.top + 8 }}
+            >
                 <TouchableOpacity
                     onPress={() => router.back()}
                     className="mr-4 h-10 w-10 items-center justify-center rounded-full bg-gray-100"
@@ -311,14 +311,17 @@ export default function VerifyKosScreen() {
 
                     <Text className="text-sm text-gray-400">
                         Didaftarkan:{" "}
-                        {new Date(house.created_at).toLocaleDateString("id-ID")}
+                        {house.created_at.toDate().toLocaleDateString("id-ID")}
                     </Text>
                 </View>
                 <View className="h-32" />
             </ScrollView>
 
             {house.status === "pending" && (
-                <View className="flex-row gap-4 border-t border-gray-100 bg-white px-6 py-4">
+                <View
+                    className="flex-row gap-4 border-t border-gray-100 bg-white px-6 py-4"
+                    style={{ paddingBottom: Math.max(insets.bottom, 16) }}
+                >
                     <TouchableOpacity
                         onPress={handleReject}
                         disabled={isUpdating}

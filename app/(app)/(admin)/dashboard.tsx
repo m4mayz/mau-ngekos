@@ -1,6 +1,9 @@
 import Text from "@/components/ui/Text";
-import { supabase } from "@/lib/supabase";
-import { BoardingHouse } from "@/types/database";
+import {
+    FirestoreBoardingHouse,
+    getAllBoardingHouses,
+    getBoardingHousesByStatus,
+} from "@/lib/firestore";
 import { Monicon } from "@monicon/native";
 import { useRouter } from "expo-router";
 import { useEffect, useState } from "react";
@@ -11,11 +14,15 @@ import {
     TouchableOpacity,
     View,
 } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 export default function AdminDashboardScreen() {
     const router = useRouter();
-    const [pendingHouses, setPendingHouses] = useState<BoardingHouse[]>([]);
-    const [allHouses, setAllHouses] = useState<BoardingHouse[]>([]);
+    const insets = useSafeAreaInsets();
+    const [pendingHouses, setPendingHouses] = useState<
+        FirestoreBoardingHouse[]
+    >([]);
+    const [allHouses, setAllHouses] = useState<FirestoreBoardingHouse[]>([]);
     const [isLoading, setIsLoading] = useState(true);
     const [isRefreshing, setIsRefreshing] = useState(false);
     const [activeTab, setActiveTab] = useState<"pending" | "all">("pending");
@@ -25,22 +32,18 @@ export default function AdminDashboardScreen() {
     }, []);
 
     const fetchHouses = async () => {
-        const { data: pending } = await supabase
-            .from("boarding_houses")
-            .select("*")
-            .eq("status", "pending")
-            .order("created_at", { ascending: false });
+        try {
+            const pending = await getBoardingHousesByStatus("pending");
+            const all = await getAllBoardingHouses();
 
-        const { data: all } = await supabase
-            .from("boarding_houses")
-            .select("*")
-            .order("created_at", { ascending: false });
-
-        if (pending) setPendingHouses(pending);
-        if (all) setAllHouses(all);
-
-        setIsLoading(false);
-        setIsRefreshing(false);
+            setPendingHouses(pending);
+            setAllHouses(all);
+        } catch (error) {
+            console.error("Error fetching houses:", error);
+        } finally {
+            setIsLoading(false);
+            setIsRefreshing(false);
+        }
     };
 
     const formatPrice = (price: number) => {
@@ -77,14 +80,17 @@ export default function AdminDashboardScreen() {
     if (isLoading) {
         return (
             <View className="flex-1 items-center justify-center bg-gray-50">
-                <ActivityIndicator size="large" color="#6366F1" />
+                <ActivityIndicator size="large" color="#1b988d" />
             </View>
         );
     }
 
     return (
         <View className="flex-1 bg-gray-50">
-            <View className="bg-primary px-6 pb-6 pt-14">
+            <View
+                className="bg-primary px-6 pb-6"
+                style={{ paddingTop: insets.top + 16 }}
+            >
                 <Text weight="bold" className="text-2xl text-white">
                     Admin Dashboard
                 </Text>
@@ -161,7 +167,7 @@ export default function AdminDashboardScreen() {
                                 key={house.id}
                                 onPress={() =>
                                     router.push(
-                                        `/(app)/(admin)/verify/${house.id}`
+                                        `/(app)/(admin)/verify/${house.id}`,
                                     )
                                 }
                                 className="mb-4 rounded-2xl bg-white p-4 shadow"
@@ -206,7 +212,7 @@ export default function AdminDashboardScreen() {
                                         <Monicon
                                             name="material-symbols:visibility-rounded"
                                             size={18}
-                                            color="#6366F1"
+                                            color="#1b988d"
                                         />
                                         <Text
                                             weight="medium"

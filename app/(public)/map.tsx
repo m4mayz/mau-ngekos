@@ -7,9 +7,11 @@ import * as Location from "expo-location";
 import { useRouter } from "expo-router";
 import { useEffect, useState } from "react";
 import { StyleSheet, TouchableOpacity, View } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 export default function PublicMapScreen() {
     const router = useRouter();
+    const insets = useSafeAreaInsets();
     const [houses, setHouses] = useState<BoardingHouse[]>([]);
     const [userLocation, setUserLocation] = useState({
         latitude: -6.2088,
@@ -44,9 +46,7 @@ export default function PublicMapScreen() {
                 .select("*")
                 .eq("status", "approved");
 
-            if (data && !error) {
-                setHouses(data);
-            }
+            if (data && !error) setHouses(data);
         } catch (error) {
             console.error("Error fetching houses:", error);
         }
@@ -80,7 +80,7 @@ export default function PublicMapScreen() {
             />
 
             {/* Header */}
-            <View className="absolute left-4 right-4 top-12">
+            <View style={{ paddingTop: insets.top + 8, paddingHorizontal: 16 }}>
                 <View className="flex-row items-center rounded-2xl bg-white px-4 py-3 shadow-lg">
                     <Monicon
                         name="material-symbols:search-rounded"
@@ -94,10 +94,17 @@ export default function PublicMapScreen() {
             </View>
 
             {/* Login Button */}
-            <View className="absolute bottom-8 left-4 right-4">
+            <View
+                style={{
+                    position: "absolute",
+                    bottom: Math.max(insets.bottom, 16) + 8,
+                    left: 16,
+                    right: 16,
+                }}
+            >
                 <TouchableOpacity
                     onPress={() => router.push("/(auth)/login")}
-                    className="flex-row items-center justify-center rounded-2xl bg-primary py-4 shadow-lg"
+                    className="flex-row items-center justify-center rounded-full bg-primary py-4 shadow-lg"
                 >
                     <Monicon
                         name="material-symbols:login-rounded"
