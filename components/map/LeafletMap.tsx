@@ -90,36 +90,7 @@ const getCategoryConfig = (
         };
     }
 
-    // Restaurant/Food
-    if (
-        cat.includes("restoran") ||
-        cat.includes("restaurant") ||
-        cat.includes("rumah makan") ||
-        cat.includes("kafe") ||
-        cat.includes("cafe") ||
-        cat.includes("kedai") ||
-        cat.includes("warung") ||
-        cat.includes("padang") ||
-        cat.includes("sunda") ||
-        cat.includes("hidangan") ||
-        cat.includes("makanan") ||
-        cat.includes("ayam") ||
-        cat.includes("seafood") ||
-        cat.includes("mi") ||
-        cat.includes("bubur") ||
-        cat.includes("sate") ||
-        cat.includes("nasi") ||
-        cat.includes("brunch")
-    ) {
-        return {
-            color: "#F97316",
-            icon: "M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z",
-            minZoom: 15,
-            priority: 3,
-        };
-    }
-
-    // Minimarket/Store
+    // Minimarket/Store - Check BEFORE food to avoid "toko bahan makanan" matching food
     if (
         cat.includes("minimarket") ||
         cat.includes("toko") ||
@@ -130,9 +101,53 @@ const getCategoryConfig = (
     ) {
         return {
             color: "#3B82F6",
-            icon: "M18.36 9l.6 3H5.04l.6-3h12.72M20 4H4v2h16V4zm0 3H4l-1 5v2h1v6h10v-6h4v6h2v-6h1v-2l-1-5zM6 18v-4h6v4H6z",
+            // Shopping bag icon (Material Icons)
+            icon: "M18 6h-2c0-2.21-1.79-4-4-4S8 3.79 8 6H6c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-6-2c1.1 0 2 .9 2 2h-4c0-1.1.9-2 2-2zm6 16H6V8h2v2c0 .55.45 1 1 1s1-.45 1-1V8h4v2c0 .55.45 1 1 1s1-.45 1-1V8h2v12z",
             minZoom: 16,
             priority: 4,
+        };
+    }
+
+    // Cafe/Coffee - Check before restaurant
+    if (
+        cat.includes("kafe") ||
+        cat.includes("cafe") ||
+        cat.includes("coffee") ||
+        cat.includes("kopi")
+    ) {
+        return {
+            color: "#8B4513",
+            // Simple cup/mug icon
+            icon: "M4.55132 2.68377C4.68743 2.27543 5.06957 2 5.5 2H18.5C18.9304 2 19.3126 2.27543 19.4487 2.68377L20.2208 5H20.5C21.0523 5 21.5 5.44772 21.5 6C21.5 6.55228 21.0523 7 20.5 7H19.5H19.405L17.995 21.0995C17.9439 21.6107 17.5138 22 17 22H7C6.48625 22 6.05608 21.6107 6.00496 21.0995L4.59501 7H4.5H3.5C2.94772 7 2.5 6.55228 2.5 6C2.5 5.44772 2.94772 5 3.5 5H3.77924L4.55132 2.68377ZM6.60499 7L7.90499 20H16.095L17.395 7H6.60499ZM18.1126 5H5.88743L6.22076 4H17.7792L18.1126 5Z",
+            minZoom: 15,
+            priority: 3,
+        };
+    }
+
+    // Restaurant/Food
+    if (
+        cat.includes("restoran") ||
+        cat.includes("restaurant") ||
+        cat.includes("rumah makan") ||
+        cat.includes("kedai") ||
+        cat.includes("warung") ||
+        cat.includes("padang") ||
+        cat.includes("sunda") ||
+        cat.includes("hidangan") ||
+        cat.includes("makanan") ||
+        cat.includes("ayam") ||
+        cat.includes("seafood") ||
+        cat.includes("mi ") ||
+        cat.includes("bubur") ||
+        cat.includes("sate") ||
+        cat.includes("nasi") ||
+        cat.includes("brunch")
+    ) {
+        return {
+            color: "#F97316",
+            icon: "M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z",
+            minZoom: 15,
+            priority: 3,
         };
     }
 
@@ -232,16 +247,16 @@ export default function LeafletMap({
         
         .geo-label {
           position: absolute;
-          right: 32px;
           top: 50%;
           transform: translateY(-50%);
           font-size: 11px;
           font-weight: 700;
+          max-width: 100px;
           white-space: nowrap;
-          max-width: 120px;
           overflow: hidden;
           text-overflow: ellipsis;
           pointer-events: none;
+          line-height: 1.2;
           text-shadow: 
             -1px -1px 0 white,
             1px -1px 0 white,
@@ -251,6 +266,16 @@ export default function LeafletMap({
             0 1px 0 white,
             -1px 0 0 white,
             1px 0 0 white;
+        }
+        
+        .geo-label.label-left {
+          right: 32px;
+          text-align: right;
+        }
+        
+        .geo-label.label-right {
+          left: 40px;
+          text-align: left;
         }
       </style>
     </head>
@@ -341,15 +366,14 @@ export default function LeafletMap({
           return visible;
         }
         
-        // Create marker element with label on left of pin
-        function createMarkerIcon(geo) {
+        // Create marker element with dynamic label position
+        function createMarkerIcon(geo, labelPosition) {
           var safeName = geo.name.replace(/'/g, "\\'").replace(/"/g, '\\"');
+          var labelClass = labelPosition === 'right' ? 'label-right' : 'label-left';
           
-          // Pin is 28x28, label is positioned absolutely to the left
-          // iconAnchor should be center of the 28x28 wrapper (14, 14)
           return L.divIcon({
             className: 'geo-marker-container',
-            html: '<div class="geo-marker-wrapper"><div class="geo-label" style="color:' + geo.color + ';">' + safeName + '</div><div class="geo-pin" style="background:' + geo.color + ';"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="white" d="' + geo.icon + '"/></svg></div></div>',
+            html: '<div class="geo-marker-wrapper"><div class="geo-label ' + labelClass + '" style="color:' + geo.color + ';">' + safeName + '</div><div class="geo-pin" style="background:' + geo.color + ';"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="white" d="' + geo.icon + '"/></svg></div></div>',
             iconSize: [28, 28],
             iconAnchor: [14, 14]
           });
@@ -380,9 +404,10 @@ export default function LeafletMap({
           // Step 2: Filter overlapping markers
           var visibleMarkers = filterOverlappingMarkers(candidates);
           
-          // Step 3: Create markers
-          visibleMarkers.forEach(function(item) {
-            var icon = createMarkerIcon(item.geo);
+          // Step 3: Create markers with dynamic label positioning
+          visibleMarkers.forEach(function(item, idx) {
+            var labelPosition = hasMarkerOnLeft(visibleMarkers, idx, item.pixel) ? 'right' : 'left';
+            var icon = createMarkerIcon(item.geo, labelPosition);
             var marker = L.marker([item.geo.lat, item.geo.lng], { icon: icon });
             geoLayer.addLayer(marker);
           });
