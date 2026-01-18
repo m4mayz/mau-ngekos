@@ -16,7 +16,7 @@ config.resolver = {
 module.exports = withNativeWind(
     withMonicon(config, {
         iconsDir: "node_modules/@iconify-json",
-        collections: ["mdi", "material-symbols"],
+        collections: ["mdi", "material-symbols", "logos"],
     }),
     { input: "./global.css" },
 );
