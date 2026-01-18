@@ -31,8 +31,8 @@ export default function SeekerHomeScreen() {
     const [selectedHouse, setSelectedHouse] =
         useState<FirestoreBoardingHouse | null>(null);
     const [userLocation, setUserLocation] = useState({
-        latitude: -6.2088,
-        longitude: 106.8456,
+        latitude: -6.9187,
+        longitude: 106.9268,
     });
 
     useEffect(() => {
