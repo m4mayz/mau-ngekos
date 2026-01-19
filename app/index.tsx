@@ -1,9 +1,8 @@
 import Text from "@/components/ui/Text";
 import { useAuth } from "@/contexts/AuthContext";
-import { Monicon } from "@monicon/native";
 import { useRouter } from "expo-router";
 import { useEffect } from "react";
-import { ActivityIndicator, View } from "react-native";
+import { ActivityIndicator, Image, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 export default function SplashScreen() {
@@ -37,10 +36,10 @@ export default function SplashScreen() {
             style={{ paddingTop: insets.top, paddingBottom: insets.bottom }}
         >
             <View className="items-center">
-                <Monicon
-                    name="material-symbols:location-home-rounded"
-                    size={80}
-                    color="#ffffff"
+                <Image
+                    source={require("@/assets/images/icon.png")}
+                    style={{ width: 100, height: 100 }}
+                    resizeMode="contain"
                 />
                 <Text
                     weight="bold"

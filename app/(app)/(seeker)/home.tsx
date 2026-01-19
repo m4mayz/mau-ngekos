@@ -10,6 +10,7 @@ import * as Location from "expo-location";
 import { useRouter } from "expo-router";
 import { useCallback, useEffect, useState } from "react";
 import {
+    Image,
     Linking,
     ScrollView,
     StyleSheet,
@@ -137,13 +138,13 @@ export default function SeekerHomeScreen() {
                 style={{ paddingTop: insets.top + 12, paddingHorizontal: 16 }}
             >
                 {/* Search Bar */}
-                <View className="flex-row items-center h-12 bg-white rounded-full px-4 shadow-lg">
+                <View className="flex-row items-center h-14 bg-white rounded-full px-4 shadow-lg">
                     {/* MauNgekos Icon */}
-                    <View className="w-8 h-8 rounded-full bg-primary/10 items-center justify-center mr-3">
-                        <Monicon
-                            name="material-symbols:location-home-rounded"
-                            size={18}
-                            color="#1b988d"
+                    <View className="w-9 h-9 overflow-hidden items-center justify-center mr-3">
+                        <Image
+                            source={require("@/assets/images/icon-no-bg2.png")}
+                            style={{ width: 40, height: 40 }}
+                            resizeMode="contain"
                         />
                     </View>
 
@@ -152,24 +153,24 @@ export default function SeekerHomeScreen() {
                         onChangeText={setSearchQuery}
                         placeholder="Cari kos di sekitarmu..."
                         className="flex-1 text-gray-900"
-                        placeholderTextColor="#9CA3AF"
+                        placeholderTextColor="#1f2937"
                         style={{
                             fontFamily: "Manrope_400Regular",
-                            fontSize: 15,
+                            fontSize: 16,
                         }}
                     />
 
-                    <View className="w-px h-6 bg-gray-200 mx-3" />
+                    <View className="w-px h-7 bg-gray-200 mx-3" />
 
                     {/* Profile Button or Login */}
                     {firebaseUser ? (
                         <TouchableOpacity
                             onPress={() => router.push("/(app)/profile")}
-                            className="w-8 h-8 rounded-full bg-gray-100 items-center justify-center overflow-hidden border border-gray-200"
+                            className="w-9 h-9 rounded-full bg-gray-100 items-center justify-center overflow-hidden border border-gray-200"
                         >
                             <Monicon
                                 name="material-symbols:person-rounded"
-                                size={20}
+                                size={22}
                                 color="#1b988d"
                             />
                         </TouchableOpacity>

@@ -7,6 +7,7 @@ import { useState } from "react";
 import {
     ActivityIndicator,
     Alert,
+    Image,
     KeyboardAvoidingView,
     Platform,
     ScrollView,
@@ -92,18 +93,12 @@ export default function LoginScreen() {
                     </View>
 
                     {/* Logo Badge */}
-                    <View className="bg-white/90 flex-row items-center px-4 py-2 rounded-full shadow-sm">
-                        <Monicon
-                            name="material-symbols:location-home-rounded"
-                            size={20}
-                            color="#1b988d"
+                    <View className="bg-white/90 px-4 py-2 rounded-full shadow-sm">
+                        <Image
+                            source={require("@/assets/images/horizontal.png")}
+                            style={{ width: 120, height: 30 }}
+                            resizeMode="contain"
                         />
-                        <Text
-                            weight="bold"
-                            className="ml-2 text-xs uppercase tracking-wider text-primary"
-                        >
-                            MauNgekos
-                        </Text>
                     </View>
                 </View>
 
