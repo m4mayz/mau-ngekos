@@ -1,3 +1,6 @@
+import MenuItem from "@/components/ui/MenuItem";
+import PageHeader from "@/components/ui/PageHeader";
+import StatusBadge from "@/components/ui/StatusBadge";
 import Text from "@/components/ui/Text";
 import { useAuth } from "@/contexts/AuthContext";
 import { auth } from "@/lib/firebase";
@@ -5,7 +8,7 @@ import { updateUser } from "@/lib/firestore";
 import { Monicon } from "@monicon/native";
 import { useRouter } from "expo-router";
 import { signOut } from "firebase/auth";
-import { Alert, ScrollView, TouchableOpacity, View } from "react-native";
+import { Alert, ScrollView, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 export default function ProfileScreen() {
@@ -22,7 +25,6 @@ export default function ProfileScreen() {
                 onPress: async () => {
                     try {
                         await signOut(auth);
-                        // Navigate to login after signOut
                         router.replace("/(auth)/login");
                     } catch (error) {
                         console.error("Logout error:", error);
@@ -62,33 +64,9 @@ export default function ProfileScreen() {
         );
     };
 
-    const getRoleBadge = (role: string) => {
-        const colors = {
-            seeker: "bg-blue-100 text-blue-700",
-            owner: "bg-green-100 text-green-700",
-            admin: "bg-purple-100 text-purple-700",
-        };
-        const labels = {
-            seeker: "Pencari Kos",
-            owner: "Pemilik Kos",
-            admin: "Admin",
-        };
-        return {
-            color: colors[role as keyof typeof colors],
-            label: labels[role as keyof typeof labels],
-        };
-    };
-
     return (
         <ScrollView className="flex-1 bg-gray-50">
-            <View
-                className="bg-primary px-6 pb-8"
-                style={{ paddingTop: insets.top + 16 }}
-            >
-                <Text weight="bold" className="text-2xl text-white">
-                    Profil
-                </Text>
-            </View>
+            <PageHeader title="Profil" />
 
             {/* Profile Card */}
             <View className="-mt-4 mx-4 rounded-2xl bg-white p-6 shadow-lg">
@@ -107,12 +85,10 @@ export default function ProfileScreen() {
                         {user?.email || firebaseUser?.email}
                     </Text>
                     {user && (
-                        <View
-                            className={`mt-2 rounded-full px-3 py-1 ${getRoleBadge(user.role).color}`}
-                        >
-                            <Text weight="medium">
-                                {getRoleBadge(user.role).label}
-                            </Text>
+                        <View className="mt-2">
+                            <StatusBadge
+                                type={user.role as "seeker" | "owner" | "admin"}
+                            />
                         </View>
                     )}
                 </View>
@@ -124,60 +100,31 @@ export default function ProfileScreen() {
                 style={{ marginBottom: insets.bottom + 100 }}
             >
                 {user?.phone_number && (
-                    <View className="flex-row items-center border-b border-gray-100 px-4 py-4">
-                        <Monicon
-                            name="material-symbols:phone-rounded"
-                            size={24}
-                            color="#6B7280"
-                        />
-                        <View className="ml-4 flex-1">
-                            <Text className="text-sm text-gray-500">
-                                No. Telepon
-                            </Text>
-                            <Text weight="medium" className="text-gray-900">
-                                {user.phone_number}
-                            </Text>
-                        </View>
-                    </View>
+                    <MenuItem
+                        icon="material-symbols:phone-rounded"
+                        title="No. Telepon"
+                        subtitle={user.phone_number}
+                        showChevron={false}
+                    />
                 )}
 
                 {user?.role === "seeker" && (
-                    <TouchableOpacity
+                    <MenuItem
+                        icon="material-symbols:add-home-rounded"
+                        iconColor="#10B981"
+                        title="Mau Pasang Iklan Kos?"
                         onPress={handleBecomeOwner}
-                        className="flex-row items-center border-b border-gray-100 px-4 py-4"
-                    >
-                        <Monicon
-                            name="material-symbols:add-home-rounded"
-                            size={24}
-                            color="#10B981"
-                        />
-                        <Text
-                            weight="medium"
-                            className="ml-4 flex-1 text-gray-900"
-                        >
-                            Mau Pasang Iklan Kos?
-                        </Text>
-                        <Monicon
-                            name="material-symbols:chevron-right-rounded"
-                            size={24}
-                            color="#9CA3AF"
-                        />
-                    </TouchableOpacity>
+                    />
                 )}
 
-                <TouchableOpacity
+                <MenuItem
+                    icon="material-symbols:logout-rounded"
+                    title="Keluar"
                     onPress={handleLogout}
-                    className="flex-row items-center px-4 py-4"
-                >
-                    <Monicon
-                        name="material-symbols:logout-rounded"
-                        size={24}
-                        color="#EF4444"
-                    />
-                    <Text weight="medium" className="ml-4 flex-1 text-red-500">
-                        Keluar
-                    </Text>
-                </TouchableOpacity>
+                    variant="danger"
+                    showChevron={false}
+                    hasBorder={false}
+                />
             </View>
         </ScrollView>
     );

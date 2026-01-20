@@ -286,6 +286,7 @@ export default function LeafletMap({
         var geoData = ${geoDataJSON};
         
         var map = L.map('map', {
+        attributionControl: false,
           zoomControl: false,
           dragging: ${interactive},
           touchZoom: ${interactive},
@@ -295,7 +296,6 @@ export default function LeafletMap({
         
         // CartoCDN Light - clean map style
         L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-          attribution: '© CartoDB © OSM',
           subdomains: 'abcd',
           maxZoom: 19
         }).addTo(map);

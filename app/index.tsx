@@ -15,7 +15,8 @@ export default function SplashScreen() {
 
         const timer = setTimeout(() => {
             if (!isAuthenticated) {
-                router.replace("/(public)/map");
+                // Non-authenticated users also go to seeker home
+                router.replace("/(app)/(seeker)/home");
             } else {
                 if (role === "admin") {
                     router.replace("/(app)/(admin)/dashboard");

@@ -1,4 +1,8 @@
+import FacilitiesFilterDialog from "@/components/filter/FacilitiesFilterDialog";
+import PriceFilterDialog from "@/components/filter/PriceFilterDialog";
+import TypeFilterDialog from "@/components/filter/TypeFilterDialog";
 import LeafletMap, { MapMarker } from "@/components/map/LeafletMap";
+import FilterChip from "@/components/ui/FilterChip";
 import Text from "@/components/ui/Text";
 import { useAuth } from "@/contexts/AuthContext";
 import {
@@ -20,6 +24,16 @@ import {
 } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
+// Filter state interface
+interface FilterState {
+    minPrice?: number;
+    maxPrice?: number;
+    kosType: "putra" | "putri" | "campur" | null;
+    roomFacilities: string[];
+    sharedFacilities: string[];
+    onlyAvailable: boolean;
+}
+
 export default function SeekerHomeScreen() {
     const router = useRouter();
     const insets = useSafeAreaInsets();
@@ -35,6 +49,14 @@ export default function SeekerHomeScreen() {
         latitude: -6.9187,
         longitude: 106.9268,
     });
+    const [filters, setFilters] = useState<FilterState>({
+        minPrice: undefined,
+        maxPrice: undefined,
+        kosType: null,
+        roomFacilities: [],
+        sharedFacilities: [],
+        onlyAvailable: false,
+    });
 
     useEffect(() => {
         fetchHouses();
@@ -43,7 +65,7 @@ export default function SeekerHomeScreen() {
 
     useEffect(() => {
         filterHouses();
-    }, [searchQuery, houses]);
+    }, [searchQuery, houses, filters]);
 
     const getCurrentLocation = async () => {
         try {
@@ -73,6 +95,8 @@ export default function SeekerHomeScreen() {
 
     const filterHouses = useCallback(() => {
         let result = houses;
+
+        // Search filter
         if (searchQuery) {
             result = result.filter(
                 (h) =>
@@ -80,8 +104,49 @@ export default function SeekerHomeScreen() {
                     h.address.toLowerCase().includes(searchQuery.toLowerCase()),
             );
         }
+
+        // Price filter
+        if (filters.minPrice) {
+            result = result.filter(
+                (h) => h.price_per_month >= filters.minPrice!,
+            );
+        }
+        if (filters.maxPrice) {
+            result = result.filter(
+                (h) => h.price_per_month <= filters.maxPrice!,
+            );
+        }
+
+        // Kos type filter
+        if (filters.kosType) {
+            result = result.filter((h) => h.kos_type === filters.kosType);
+        }
+
+        // Room facilities filter
+        if (filters.roomFacilities.length > 0) {
+            result = result.filter((h) =>
+                filters.roomFacilities.every((f) =>
+                    h.room_facilities?.includes(f),
+                ),
+            );
+        }
+
+        // Shared facilities filter
+        if (filters.sharedFacilities.length > 0) {
+            result = result.filter((h) =>
+                filters.sharedFacilities.every((f) =>
+                    h.shared_facilities?.includes(f),
+                ),
+            );
+        }
+
+        // Available rooms filter
+        if (filters.onlyAvailable) {
+            result = result.filter((h) => (h.available_rooms ?? 0) > 0);
+        }
+
         setFilteredHouses(result);
-    }, [searchQuery, houses]);
+    }, [searchQuery, houses, filters]);
 
     const formatPrice = (price: number) => {
         if (price >= 1000000) {
@@ -138,7 +203,15 @@ export default function SeekerHomeScreen() {
                 style={{ paddingTop: insets.top + 12, paddingHorizontal: 16 }}
             >
                 {/* Search Bar */}
-                <View className="flex-row items-center h-14 bg-white rounded-full px-4 shadow-lg">
+                <View
+                    className="flex-row items-center h-14 bg-white rounded-full px-4"
+                    style={{
+                        boxShadow: "0 1px 2px rgba(0, 0, 0, 0.1)",
+                        shadowColor: "#000",
+                        elevation: 10,
+                        backgroundColor: "#fff",
+                    }}
+                >
                     {/* MauNgekos Icon */}
                     <View className="w-9 h-9 overflow-hidden items-center justify-center mr-3">
                         <Image
@@ -153,14 +226,12 @@ export default function SeekerHomeScreen() {
                         onChangeText={setSearchQuery}
                         placeholder="Cari kos di sekitarmu..."
                         className="flex-1 text-gray-900"
-                        placeholderTextColor="#1f2937"
+                        placeholderTextColor="#9CA3AF"
                         style={{
                             fontFamily: "Manrope_400Regular",
                             fontSize: 16,
                         }}
                     />
-
-                    <View className="w-px h-7 bg-gray-200 mx-3" />
 
                     {/* Profile Button or Login */}
                     {firebaseUser ? (
@@ -196,33 +267,45 @@ export default function SeekerHomeScreen() {
                     className="mt-3"
                     contentContainerStyle={{ paddingRight: 16 }}
                 >
-                    <TouchableOpacity className="flex-row items-center px-4 h-9 rounded-full bg-white border border-gray-200 mr-3 shadow-sm">
-                        <Text weight="medium" className="text-sm text-primary">
-                            Harga
-                        </Text>
-                        <View className="ml-1">
-                            <Monicon
-                                name="material-symbols:expand-more-rounded"
-                                size={18}
-                                color="#1b988d"
-                            />
-                        </View>
-                    </TouchableOpacity>
-                    <TouchableOpacity className="flex-row items-center px-4 h-9 rounded-full bg-white border border-gray-200 mr-3 shadow-sm">
-                        <Text weight="medium" className="text-sm text-primary">
-                            Tipe
-                        </Text>
-                    </TouchableOpacity>
-                    <TouchableOpacity className="flex-row items-center px-4 h-9 rounded-full bg-white border border-gray-200 mr-3 shadow-sm">
-                        <Text weight="medium" className="text-sm text-primary">
-                            Fasilitas
-                        </Text>
-                    </TouchableOpacity>
-                    <TouchableOpacity className="flex-row items-center px-4 h-9 rounded-full bg-white border border-gray-200 mr-3 shadow-sm">
-                        <Text weight="medium" className="text-sm text-primary">
-                            AC
-                        </Text>
-                    </TouchableOpacity>
+                    <PriceFilterDialog
+                        minPrice={filters.minPrice}
+                        maxPrice={filters.maxPrice}
+                        onApply={(min, max) =>
+                            setFilters((p) => ({
+                                ...p,
+                                minPrice: min,
+                                maxPrice: max,
+                            }))
+                        }
+                    />
+                    <TypeFilterDialog
+                        value={filters.kosType}
+                        onApply={(type) =>
+                            setFilters((p) => ({ ...p, kosType: type }))
+                        }
+                    />
+                    <FacilitiesFilterDialog
+                        roomFacilities={filters.roomFacilities}
+                        sharedFacilities={filters.sharedFacilities}
+                        onApply={(room, shared) =>
+                            setFilters((p) => ({
+                                ...p,
+                                roomFacilities: room,
+                                sharedFacilities: shared,
+                            }))
+                        }
+                    />
+                    <FilterChip
+                        label="Tersedia"
+                        hasValue={filters.onlyAvailable}
+                        onPress={() =>
+                            setFilters((p) => ({
+                                ...p,
+                                onlyAvailable: !p.onlyAvailable,
+                            }))
+                        }
+                        showDropdown={false}
+                    />
                 </ScrollView>
             </View>
 

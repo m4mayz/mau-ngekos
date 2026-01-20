@@ -35,6 +35,11 @@ export interface FirestoreBoardingHouse {
     whatsapp_number: string;
     status: "pending" | "approved" | "rejected";
     created_at: Timestamp;
+    // New fields for filtering
+    kos_type?: "putra" | "putri" | "campur";
+    available_rooms?: number;
+    room_facilities?: string[];
+    shared_facilities?: string[];
 }
 
 export interface FirestoreHouseImage {
